@@ -124,7 +124,31 @@ body{
 a{
     text-decoration: none !important;
 }
-
+b{
+    color: gray;
+}
+c{
+    font-weight: bold;
+    color: purple;
+}
+contact{
+    font-size:70%;
+}
+.alignleft {
+  float: left;
+  width:33.33333%;
+  text-align:left;
+}
+.aligncenter {
+  float: left;
+  width:33.33333%;
+  text-align:center;
+}
+.alignright {
+ float: left;
+ width:33.33333%;
+ text-align:right;
+}​
 /* FLEXBOX FOR VERETICAL CENTERING */
 .flexbox {
     display: -ms-flexbox;
