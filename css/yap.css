@@ -1,16 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
-#footer {
+#footer, #header{
 
     background-color: #0C2233;
     font-size: 1.5em;
 }
 
-.footer-body {
+.footer-body{
     display:-webkit-inline-box;
     margin: 7px 12%; /*Temporary "centering"*/
 }
 
-.footer-section {
+.footer-section{
     width: 150%;
 }
 .icon {
@@ -31,7 +31,7 @@ body{
     padding: 0px;
     margin: 0px;
     /*Adding inner wrapper */
-    padding: 3vh; 
+    padding: 3vh;
 }
 
 /*  COLUMN SETUP  */
@@ -74,7 +74,7 @@ body{
 
 .color-4{
     background-color: #9DE0AD;
-    /*FF4B68 */ 
+    /*FF4B68 */
 }
 
 .color-5{
@@ -144,4 +144,3 @@ a{
     margin-right: 30vw;
     margin-left: 30vw;
 }
-
