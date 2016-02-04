@@ -1,7 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
-#footer, #header{
+#footer{
 
     background-color: #0C2233;
+    font-size: 1.5em;
+}
+
+#header{
+    background-color: #3c3c41;
     font-size: 1.5em;
 }
 
