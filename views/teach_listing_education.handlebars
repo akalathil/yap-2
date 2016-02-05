@@ -18,13 +18,13 @@
     <!-- header -->
     <header class="flexbox navbar navbar-inverse navbar-fixed-top nav" id="header">
         {{#each category-menu-col1}}
-        <a href="#" class="icon">
+        <a href={{href}} class="icon">
             <i class="fa {{icon}} fa-lg header-icon"></i>
             <span class="icon-label">{{category}}</span>
         </a>
         {{/each}}
         {{#each category-menu-col2}}
-        <a href="#" class="icon">
+        <a href={{href}} class="icon">
             <i class="fa {{icon}} fa-lg header-icon"></i>
             <span class="icon-label">{{category}}</span>
         </a>
@@ -126,20 +126,9 @@
         background-color: #55B4B0;
         color: white;
     }
-    /*#name{
-        text-align: center;
-    }
-    #name-rating{
-        padding-left: 0px;
-    }
     #teach-listing{
         background-color: #034f84;
-        margin-top: 60px;
     }
-    #rating{
-        text-align: center;
-        font-size: 2.5em;
-    }*/
 </style>
 
 </html>

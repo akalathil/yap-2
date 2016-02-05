@@ -2,19 +2,19 @@
 	"category-menu-col1": [
 		{
 			"color": "color-1",
-			"href": "/teach_listing",
+			"href": "/teach_listing_education",
 			"icon": "fa-book",
 			"category": "Education"
 		},
 		{
 			"color": "color-2",
-			"href": "#",
+			"href": "/teach_listing_fitness",
 			"icon": "fa-heart",
 			"category": "Fitness"
 		},
 		{
 			"color": "color-3",
-			"href": "#",
+			"href": "/teach_listing_music",
 			"icon": "fa-music",
 			"category": "Music"
 		}
@@ -22,36 +22,36 @@
 	"category-menu-col2": [
 		{
 			"color": "color-4",
-			"href": "#",
+			"href": "/teach_listing_culinary",
 			"icon": "fa-cutlery",
 			"category": "Culinary"
 		},
 		{
 			"color": "color-5",
-			"href": "#",
+			"href": "/teach_listing_beauty",
 			"icon": "fa-eye",
 			"category": "Beauty"
 		},
 		{
 			"color": "color-6",
-			"href": "#",
+			"href": "/teach_listing_search",
 			"icon": "fa-search",
 			"category": "Search"
 		}
 	],
 	"footer-menu": [
 		{
-			"href": "#",
+			"href": "/",
 			"icon": "fa-graduation-cap",
 			"label": "Learn"
 		},
 		{
-			"href": "/teach_listing",
+			"href": "/",
 			"icon": "fa-apple",
 			"label": "Teach"
 		},
 		{
-			"href": "#",
+			"href": "/message",
 			"icon": "fa-comments",
 			"label": "Message"
 		},
@@ -63,32 +63,77 @@
 	],
 	"teach_education_listing": [
 		{
-			"img-src": "../img/profile-01.jpg",
+			"img-src": "../img/profile-edu-01.jpg",
 			"name": "Sheldon Cooper",
 			"rating": "4.7",
 			"skill_1": "Physics",
 			"skill_2": "Chemistry"
 		},
 		{
-			"img-src": "../img/profile-02.jpg",
+			"img-src": "../img/profile-edu-02.jpg",
 			"name": "Scott Klemmer",
 			"rating": "5.0",
 			"skill_1": "HCI Design",
 			"skill_2": "Prototyping"
 		},
 		{
-			"img-src": "../img/profile-03.jpg",
+			"img-src": "../img/profile-edu-03.jpg",
 			"name": "Rick Ord",
 			"rating": "4.2",
-			"skill_1": "OOP: Jave",
+			"skill_1": "OOP: Java",
 			"skill_2": "Compiler"
 		},
 		{
-			"img-src": "../img/profile-04.jpg",
+			"img-src": "../img/profile-edu-04.jpg",
 			"name": "Frank Underwood",
 			"rating": "4.0",
 			"skill_1": "US Politics",
 			"skill_2": "Cards"
+		}
+	],
+	"teach_fitness_listing": [
+		{
+			"img-src": "../img/profile-fitness-01.jpg",
+			"name": "Arnold S.",
+			"rating": "4.9",
+			"skill_1": "Body Building",
+			"skill_2": "Terminator"
+		}
+	],
+	"teach_music_listing": [
+		{
+			"img-src": "../img/profile-music-01.jpg",
+			"name": "Taylor Swift",
+			"rating": "5.0",
+			"skill_1": "Singing",
+			"skill_2": "Song Writing"
+		}
+	],
+	"teach_culinary_listing": [
+		{
+			"img-src": "../img/profile-culinary-01.jpg",
+			"name": "Gordon Ramsey",
+			"rating": "1.0",
+			"skill_1": "Sandwich",
+			"skill_2": "Eggs"
+		}
+	],
+	"teach_beauty_listing": [
+		{
+			"img-src": "../img/profile-beauty-01.jpg",
+			"name": "Michelle Phan",
+			"rating": "4.4",
+			"skill_1": "Contouring",
+			"skill_2": "Eye Makeup"
+		}
+	],
+	"teach_search_listing": [
+		{
+			"img-src": "../img/profile-search-01.jpg",
+			"name": "Barack Obama",
+			"rating": "4.7",
+			"skill_1": "Speech",
+			"skill_2": "Be President"
 		}
 	]
 }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="../css/yap.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="flexbox navbar navbar-inverse navbar-fixed-top nav" id="header">
+        {{#each category-menu-col1}}
+        <a href={{href}} class="icon">
+            <i class="fa {{icon}} fa-lg header-icon"></i>
+            <span class="icon-label">{{category}}</span>
+        </a>
+        {{/each}}
+        {{#each category-menu-col2}}
+        <a href={{href}} class="icon">
+            <i class="fa {{icon}} fa-lg header-icon"></i>
+            <span class="icon-label">{{category}}</span>
+        </a>
+        {{/each}}
+    </header>
+
+    <!-- listing -->
+    <div class="content">
+        <div class="section group" id="teach-listing">
+            <div class="row">
+
+                {{#each teach_fitness_listing}}
+                <div class="list-box col-xs-12">
+                    <div class="box">
+                        <div class="inner row">
+                            <div class="profile col-xs-4">
+                                <img class="img-circle" src={{img-src}}>
+                            </div>
+                            <div class="col-xs-8" id="name-rating">
+                                <div class="row" id="name">
+                                    <h3>{{name}}</h3>
+                                </div>
+                                <div class="row" id="rating">
+                                    <i class="fa fa-star" id="yellow-star">
+                                        <span style="color:black">{{rating}}</span>
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="skill-box col-xs-4">{{skill_1}}</div>
+                            <div class="skill-box col-xs-4">{{skill_2}}</div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
+        {{#each footer-menu}}
+            <a href={{href}} class="icon">
+                <i class="fa {{icon}} fa-lg"></i>
+                <span>{{label}}</span>
+            </a>
+        {{/each}}
+    </footer>
+</body>
+<style>
+    h3{
+        font-size: 27px;
+    }
+    .box {
+        border: 1px solid black;
+        border-radius: 5px;
+        height: inherit;
+        background-color: #f4f4f5;
+    }
+    .list-box {
+        margin: 10px auto;
+        height: 156px;
+    }
+    .inner {
+        margin: 0px;
+    }
+    .icon-label {
+        font-size: 15px;
+    }
+    .header-icon {
+        font-size: 1.15em;
+    }
+    .fa-star {
+        color: #F5E050;
+        text-shadow: 2px 2px 2px #ccc;
+        text-align: center;
+
+    }
+    .profile {
+        padding: 7px;
+    }
+    .img-circle {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    .skill-box {
+        font-size: 16px;
+        display: inline-block;
+        border: 1px solid ##55B4B0;
+        border-radius: 5px;
+        text-align: center;
+        margin: 0px 5px;
+        left: 20px;
+        top: 5px;
+        right: 20px;
+        background-color: #55B4B0;
+        color: white;
+    }
+    .content, #teach-listing{
+        background-color: #f7786b;
+    }
+</style>
+
+</html>

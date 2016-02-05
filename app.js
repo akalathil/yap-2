@@ -13,7 +13,7 @@ var index = require('./routes/index');
 // var user = require('./routes/user');
 var teach_listing=require('./routes/teach_listing');
 var user_profile=require('./routes/user_profile');
-
+var message=require('./routes/message');
 
 var app = express();
 
@@ -39,9 +39,15 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-app.get('/teach_listing', teach_listing.education);
-app.get('/user_profile', user_profile.profile);
+app.get('/teach_listing_education', teach_listing.education);
+app.get('/teach_listing_fitness', teach_listing.fitness);
+app.get('/teach_listing_music', teach_listing.music);
+app.get('/teach_listing_culinary', teach_listing.culinary);
+app.get('/teach_listing_beauty', teach_listing.beauty);
+app.get('/teach_listing_search', teach_listing.search);
 
+app.get('/user_profile', user_profile.profile);
+app.get('/message', message.messenger);
 // Example route
 // app.get('/users', user.list);
 
