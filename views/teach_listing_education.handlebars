@@ -15,6 +15,7 @@
 
 <body>
 
+    <!-- header -->
     <header class="flexbox navbar navbar-inverse navbar-fixed-top nav" id="header">
         {{#each category-menu-col1}}
         <a href="#" class="icon">
@@ -29,6 +30,50 @@
         </a>
         {{/each}}
     </header>
+
+    <!-- listing -->
+    <div class="content">
+        <div class="section group" id="teach-listing">
+            <div class="row">
+
+                {{#each teach_education_listing}}
+                <div class="list-box col-xs-12">
+                    <div class="box">
+                        <div class="inner row">
+                            <div class="profile col-xs-4">
+                                <img class="img-circle" src={{img-src}}>
+                            </div>
+                            <div class="col-xs-8" id="name-rating">
+                                <div class="row" id="name">
+                                    <h3>{{name}}</h3>
+                                </div>
+                                <div class="row" id="rating">
+                                    <i class="fa fa-star" id="yellow-star">
+                                        <span style="color:black">{{rating}}</span>
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="skill-box col-xs-4">{{skill_1}}</div>
+                            <div class="skill-box col-xs-4">{{skill_2}}</div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
+        {{#each footer-menu}}
+            <a href={{href}} class="icon">
+                <i class="fa {{icon}} fa-lg"></i>
+                <span>{{label}}</span>
+            </a>
+        {{/each}}
+    </footer>
 </body>
 <style>
     h3{
