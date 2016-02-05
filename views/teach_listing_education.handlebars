@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="../css/yap.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <header class="flexbox navbar navbar-inverse navbar-fixed-top nav" id="header">
+        {{#each category-menu-col1}}
+        <a href="#" class="icon">
+            <i class="fa {{icon}} fa-lg header-icon"></i>
+            <span class="icon-label">{{category}}</span>
+        </a>
+        {{/each}}
+        {{#each category-menu-col2}}
+        <a href="#" class="icon">
+            <i class="fa {{icon}} fa-lg header-icon"></i>
+            <span class="icon-label">{{category}}</span>
+        </a>
+        {{/each}}
+    </header>
+</body>
+<style>
+    h3{
+        font-size: 27px;
+    }
+    .box {
+        border: 1px solid black;
+        border-radius: 5px;
+        height: inherit;
+        background-color: #f4f4f5;
+    }
+    .list-box {
+        margin: 10px auto;
+        height: 156px;
+    }
+    .inner {
+        margin: 0px;
+    }
+    .icon-label {
+        font-size: 15px;
+    }
+    .header-icon {
+        font-size: 1.15em;
+    }
+    .fa-star {
+        color: #F5E050;
+        text-shadow: 2px 2px 2px #ccc;
+        text-align: center;
+
+    }
+    .profile {
+        padding: 7px;
+    }
+    .img-circle {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    .skill-box {
+        font-size: 16px;
+        display: inline-block;
+        border: 1px solid ##55B4B0;
+        border-radius: 5px;
+        text-align: center;
+        margin: 0px 5px;
+        left: 20px;
+        top: 5px;
+        right: 20px;
+        background-color: #55B4B0;
+        color: white;
+    }
+    /*#name{
+        text-align: center;
+    }
+    #name-rating{
+        padding-left: 0px;
+    }
+    #teach-listing{
+        background-color: #034f84;
+        margin-top: 60px;
+    }
+    #rating{
+        text-align: center;
+        font-size: 2.5em;
+    }*/
+</style>
+
+</html>

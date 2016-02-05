@@ -15,128 +15,112 @@
     <body>
 
         <header class="flexbox navbar navbar-inverse navbar-fixed-top nav" id="header">
+            {{#each footer-menu}}
             <a href="#" class="icon">
-                <i class="fa fa-book fa-lg header-icon"></i>
-                <span class="icon-label">Education</span>
-            </a>
-            <a href="#" class="icon">
-                <i class="fa fa-heart fa-lg header-icon"></i>
-                <span class="icon-label">Fitness</span>
-            </a>
-            <a href="#" class="icon">
-                <i class="fa fa-music header-icon"></i>
-                <span class="icon-label">Music</span>
-            </a>
-            <a href="#" class="icon">
-                <i class="fa fa-cutlery"></i>
-                <span class="icon-label">Culinary</span>
-            </a>
-            <a href="#" class="icon">
-                <i class="fa fa-eye header-icon"></i>
-                <span class="icon-label">Beauty</span>
-            </a>
-            <a href="#" class="icon">
-                <i class="fa fa-search header-icon"></i>
-                <span class="icon-label">Search</span>
+                <i class="fa {{icon}} fa-lg header-icon"></i>
+                <span class="icon-label">{{category}}</span>
             </a>
         </header>
 
-        <div class="section group" id="teach-listing">
-            <div class="row">
-                <div class="list-box col-xs-12">
-                    <div class="box">
-                        <div class="inner row">
-                            <div class="profile col-xs-4">
-                                <img class="img-circle" src="../img/profile-01.jpg">
-                            </div>
-                            <div class="col-xs-8" id="name-rating">
-                                <div class="row" id="name">
-                                    <h3>Sheldon Cooper</h3>
+        <div class="content">
+            <div class="section group" id="teach-listing">
+                <div class="row">
+                    <div class="list-box col-xs-12">
+                        <div class="box">
+                            <div class="inner row">
+                                <div class="profile col-xs-4">
+                                    <img class="img-circle" src="../img/profile-01.jpg">
                                 </div>
-                                <div class="row" id="rating">
-                                    <i class="fa fa-star" id="yellow-star">
-                                        <span style="color:black">4.7</span>
-                                    </i>
+                                <div class="col-xs-8" id="name-rating">
+                                    <div class="row" id="name">
+                                        <h3>Sheldon Cooper</h3>
+                                    </div>
+                                    <div class="row" id="rating">
+                                        <i class="fa fa-star" id="yellow-star">
+                                            <span style="color:black">4.7</span>
+                                        </i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="skill-box col-xs-4">Physics</div>
-                            <div class="skill-box col-xs-4">Chemistry</div>
+                            <div class="row">
+                                <div class="skill-box col-xs-4">Physics</div>
+                                <div class="skill-box col-xs-4">Chemistry</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="list-box col-xs-12">
-                    <div class="box">
-                        <div class="inner row">
-                            <div class="profile col-xs-4">
-                                <img class="img-circle" src="../img/profile-02.jpg">
-                            </div>
-                            <div class="col-xs-8" id="name-rating">
-                                <div class="row" id="name">
-                                    <h3>Scott Klemmer</h3>
+                    <div class="list-box col-xs-12">
+                        <div class="box">
+                            <div class="inner row">
+                                <div class="profile col-xs-4">
+                                    <img class="img-circle" src="../img/profile-02.jpg">
                                 </div>
-                                <div class="row" id="rating">
-                                    <i class="fa fa-star" id="yellow-star">
-                                        <span style="color:black">5.0</span>
-                                    </i>
+                                <div class="col-xs-8" id="name-rating">
+                                    <div class="row" id="name">
+                                        <h3>Scott Klemmer</h3>
+                                    </div>
+                                    <div class="row" id="rating">
+                                        <i class="fa fa-star" id="yellow-star">
+                                            <span style="color:black">5.0</span>
+                                        </i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="skill-box col-xs-4">HCI Design</div>
-                            <div class="skill-box col-xs-4">Prototyping</div>
+                            <div class="row">
+                                <div class="skill-box col-xs-4">HCI Design</div>
+                                <div class="skill-box col-xs-4">Prototyping</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="list-box col-xs-12">
-                    <div class="box">
-                        <div class="inner row">
-                            <div class="profile col-xs-4">
-                                <img class="img-circle" src="../img/profile-03.jpg">
-                            </div>
-                            <div class="col-xs-8" id="name-rating">
-                                <div class="row" id="name">
-                                    <h3>Rick Ord</h3>
+                    <div class="list-box col-xs-12">
+                        <div class="box">
+                            <div class="inner row">
+                                <div class="profile col-xs-4">
+                                    <img class="img-circle" src="../img/profile-03.jpg">
                                 </div>
-                                <div class="row" id="rating">
-                                    <i class="fa fa-star" id="yellow-star">
-                                        <span style="color:black">4.2</span>
-                                    </i>
+                                <div class="col-xs-8" id="name-rating">
+                                    <div class="row" id="name">
+                                        <h3>Rick Ord</h3>
+                                    </div>
+                                    <div class="row" id="rating">
+                                        <i class="fa fa-star" id="yellow-star">
+                                            <span style="color:black">4.2</span>
+                                        </i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="skill-box col-xs-4">OOP: Java</div>
-                            <div class="skill-box col-xs-4">Compiler</div>
+                            <div class="row">
+                                <div class="skill-box col-xs-4">OOP: Java</div>
+                                <div class="skill-box col-xs-4">Compiler</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="list-box col-xs-12">
-                    <div class="box">
-                        <div class="inner row">
-                            <div class="profile col-xs-4">
-                                <img class="img-circle" src="../img/profile-04.jpg">
-                            </div>
-                            <div class="col-xs-8" id="name-rating">
-                                <div class="row" id="name">
-                                    <h3>Frank Underwood</h3>
+                    <div class="list-box col-xs-12">
+                        <div class="box">
+                            <div class="inner row">
+                                <div class="profile col-xs-4">
+                                    <img class="img-circle" src="../img/profile-04.jpg">
                                 </div>
-                                <div class="row" id="rating">
-                                    <i class="fa fa-star" id="yellow-star">
-                                        <span style="color:black">4.0</span>
-                                    </i>
+                                <div class="col-xs-8" id="name-rating">
+                                    <div class="row" id="name">
+                                        <h3>Frank Underwood</h3>
+                                    </div>
+                                    <div class="row" id="rating">
+                                        <i class="fa fa-star" id="yellow-star">
+                                            <span style="color:black">4.0</span>
+                                        </i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="skill-box col-xs-4">US Politics</div>
-                            <div class="skill-box col-xs-4">US History</div>
+                            <div class="row">
+                                <div class="skill-box col-xs-4">US Politics</div>
+                                <div class="skill-box col-xs-4">US History</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
             <a href="#" class="icon">
                 <i class="fa fa-graduation-cap fa-lg"></i>
@@ -207,7 +191,7 @@
             background-color: #55B4B0;
             color: white;
         }
-        #name{
+        /*#name{
             text-align: center;
         }
         #name-rating{
@@ -220,7 +204,7 @@
         #rating{
             text-align: center;
             font-size: 2.5em;
-        }
+        }*/
     </style>
 
 </html>

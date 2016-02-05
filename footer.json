@@ -1,0 +1,64 @@
+{
+	"category-menu-col1": [
+		{
+			"color": "color-1",
+			"href": "views/teach_listing_education.html",
+			"icon": "fa-book",
+			"category": "Education"
+		},
+		{
+			"color": "color-2",
+			"href": "#",
+			"icon": "fa-heart",
+			"category": "Fitness"
+		},
+		{
+			"color": "color-3",
+			"href": "#",
+			"icon": "fa-music",
+			"category": "Music"
+		}
+	],
+	"category-menu-col2": [
+		{
+			"color": "color-4",
+			"href": "#",
+			"icon": "fa-cutlery",
+			"category": "Culinary"
+		},
+		{
+			"color": "color-5",
+			"href": "#",
+			"icon": "fa-eye",
+			"category": "Beauty"
+		},
+		{
+			"color": "color-6",
+			"href": "#",
+			"icon": "fa-search",
+			"category": "Search"
+		}
+	],
+	"footer-menu": [
+		{
+			"href": "#",
+			"icon": "fa-graduation-cap",
+			"label": "Learn"
+		},
+		{
+			"href": "/teach_listing",
+			"icon": "fa-apple",
+			"label": "Teach"
+		},
+		{
+			"href": "#",
+			"icon": "fa-comments",
+			"label": "Message"
+		},
+		{
+			"href": "#",
+			"icon": "fa-user",
+			"label": "Profile"
+		}
+	]
+}

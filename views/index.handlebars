@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>YAP - Peer Mentor</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom CSS -->
+    <link href="css/yap.css" rel="stylesheet">
+    <script src="views/teach_listing_education.html"></script>
+
+</head>
+
+<body>
+    <div class="section group">
+        <div class="row">
+            <div class="col-xs-6">
+                {{#each category-menu-col1}}
+                    <center>
+                        <div class="flexbox color {{color}}">
+                            <a href={{href}}>
+                                <i class="fa {{icon}} fa-4x"></i>
+                                <span>{{category}}</span>
+                            </a>
+                        </div>
+                    </center>
+                {{/each}}
+            </div>
+            <div class="col-xs-6">
+                {{#each category-menu-col2}}
+                    <center>
+                        <div class="flexbox color {{color}}">
+                            <a href={{href}}>
+                                <i class="fa {{icon}} fa-4x"></i>
+                                <span>{{category}}</span>
+                            </a>
+                        </div>
+                    </center>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
+        {{#each footer-menu}}
+            <a href={{href}} class="icon">
+                <i class="fa {{icon}} fa-lg"></i>
+                <span>{{label}}</span>
+            </a>
+        {{/each}}
+    </footer>
+</body>
