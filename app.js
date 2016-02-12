@@ -45,6 +45,7 @@ app.get('/teach_listing_music', teach_listing.music);
 app.get('/teach_listing_culinary', teach_listing.culinary);
 app.get('/teach_listing_beauty', teach_listing.beauty);
 app.get('/teach_listing_search', teach_listing.search);
+app.get('/login', index.login);
 
 app.get('/user_profile', user_profile.profile);
 app.get('/message', message.messenger);
