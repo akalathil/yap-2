@@ -41,12 +41,12 @@
 	],
 	"footer-menu": [
 		{
-			"href": "/",
+			"href": "/home",
 			"icon": "fa-graduation-cap",
 			"label": "Learn"
 		},
 		{
-			"href": "/",
+			"href": "/home",
 			"icon": "fa-apple",
 			"label": "Teach"
 		},

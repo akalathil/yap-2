@@ -34,11 +34,15 @@
 </head>
 
 <body>
-    <div class="login-box">
+    <div class="login-box col-md-12">
         <h1>Login</h1>
-        <div class="button" id="fb"><i class="fa fa-facebook-official fa-2x">  Sign In with Facebook</i></div>
-        <div class="button" id="google"><i class="fa fa-google fa-2x">  Sign In with Google</i></div>
-    <div>
+        <div class="col-xs-12 col-lg-6">
+            <div class="button" id="fb"><i class="fa fa-facebook-official fa-2x">  Sign In with Facebook</i></div>
+        </div>
+        <div class="col-xs-12 col-lg-6">
+            <div class="button" id="google"><i class="fa fa-google fa-2x">  Sign In with Google</i></div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -70,11 +74,11 @@
 }
 #fb {
     background-color: #3b5998;
-    margin: 1.5em 3em;
+    margin: 1.5em auto;
 }
 #google {
     background-color: #d62d20;
-    margin: 1.5em 4.5em;
+    margin: 1.5em auto;
 }
 div:hover {
     color: #000;
