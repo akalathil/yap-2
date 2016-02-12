@@ -13,60 +13,76 @@
 
 </head>
     <body>
-        <div class="content-profile">
-
-            <div class="section group" id="profile-details">
-                <div class="row">
-                    <div class="list-box col-xs-12" id="white-box">
-                        <div class="box" id="blue-box">
-                            <div class="inner row">
-                                <div class="profile col-xs-4">
-                                    <img class="img-circle" src="../img/profile-edu-01.jpg">
+        <div class="section group" id="profile-details">
+            <div class="row">
+                <div class="list-box col-xs-12" id="white-box">
+                    <div class="box" id="blue-box">
+                        <div class="inner row">
+                            <div class="profile col-xs-4">
+                                <img class="img-circle" src="{{img-src}}">
+                            </div>
+                            <div class="col-xs-8" id="name-rating">
+                                <div class="row" id="name">
+                                    <h3>{{name}}</h3>
                                 </div>
-                                <div class="col-xs-8" id="name-rating">
-                                    <div class="row" id="name">
-                                        <h3>Sheldon Cooper</h3>
-                                    </div>
-                                    <div class="row" id="rating">
-                                        <i class="fa fa-star" id="yellow-star">
-                                            <span style="color:black">4.7</span>
-                                        </i>
-                                        <i class="fa fa-mobile fa-lg" id="contact-button">
-                                            <contact style="color:black">CONTACT</contact>
-                                        </i>
-                                    </div>
+                                <div class="row" id="rating">
+                                    <h3>{{rating}}/5</h3>
+                                    <i class="fa fa-mobile fa-lg" id="contact-button">
+                                        <contact style="color:black">CONTACT</contact>
+                                    </i>
                                 </div>
                             </div>
-                            {{#each subjects}}
-                            <div class="row" id="{{id}}-box">
-                                <div class="skill-box col-xs-4" id="{{id}}-details">
-                                    {{subject}}
-                                    <div class="course-details">
-                                        <c class="alignleft">{{class1}}</c>
-                                        <a class="aligncenter">{{rate1}}</a>
-                                        <b class="alignright" href="url">Reviews</b>
-                                    </div>
-                                    <div class="course-details">
-                                        <c class="alignleft">{{class2}}</c>
-                                        <a class="aligncenter">{{rate2}}</a>
-                                        <b class="alignright" href="url">Reviews</b>
-                                    </div>
+                        </div>
+                        <div class="row" id="physics-box">
+                            <div class="skill-box col-xs-4" id="physics-details">
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_1}}</c>
+                                    <a class="aligncenter">$16/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_2}}</c>
+                                    <a class="aligncenter">$18/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_3}}</c>
+                                    <a class="aligncenter">$20/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>                          
+                            </div>
+                        </div>
+                        <div class="row" id="chemistry-box">
+                            <div class="skill-box col-xs-4" id="chemistry-details">
+                                <h5>{{skill_2}}</h5>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_4}}</c>
+                                    <a class="aligncenter">$17/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
                                 </div>
                             </div>
-                            {{/each}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- footer -->
         <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
-            {{#each footer-menu}}
-                <a href={{href}} class="icon">
-                    <i class="fa {{icon}} fa-lg"></i>
-                    <span>{{label}}</span>
-                </a>
-            {{/each}}
+            <a href="/home" class="icon">
+                <i class="fa fa-graduation-cap fa-lg"></i>
+                <span>Learn</span>
+            </a>
+            <a href="/home" class="icon">
+                <i class="fa fa-apple fa-lg"></i>
+                <span>Teach</center>
+            </a>
+            <a href="#" class="icon">
+                <i class="fa fa-comments fa-lg"></i>
+                <span>Message</center>
+            </a>
+            <a href="#" class="icon">
+                <i class="fa fa-user fa-lg"></i>
+                <span>Profile</center>
+            </a>
         </footer>
     </body>
     <style>
@@ -137,7 +153,7 @@
             padding-left: 0px;
         }
         #blue-box{
-            height: 520px;
+            height: 100%;
         }
         #profile-details{
             background-color: #034f84;
