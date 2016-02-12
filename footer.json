@@ -135,5 +135,23 @@
 			"skill_1": "Speech",
 			"skill_2": "Be President"
 		}
+	],
+	"subjects": [
+		{
+			"id": "physics",
+			"subject": "Physics",
+			"class1": "PHYS 2A",
+			"rate1": "$16/hr",
+			"class2": "PHYS 2B",
+			"rate2": "$18/hr"
+		},
+		{
+			"id": "chemistry",
+			"subject": "Chemistry",
+			"class1": "CHEM 6A",
+			"rate1": "$17/hr",
+			"class2": "CHEM 6B",
+			"rate2": "$19.50/hr"
+		}
 	]
 }

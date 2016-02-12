@@ -37,46 +37,23 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row" id="physics-box">
-                                <div class="skill-box col-xs-4" id="physics-details">
-                                    Physics
+                            {{#each subjects}}
+                            <div class="row" id="{{id}}-box">
+                                <div class="skill-box col-xs-4" id="{{id}}-details">
+                                    {{subject}}
                                     <div class="course-details">
-                                        <c class="alignleft">PHYS 2A</c>
-                                        <a class="aligncenter">$16/hr</a>
+                                        <c class="alignleft">{{class1}}</c>
+                                        <a class="aligncenter">{{rate1}}</a>
                                         <b class="alignright" href="url">Reviews</b>
                                     </div>
                                     <div class="course-details">
-                                        <c class="alignleft">PHYS 2B</c>
-                                        <a class="aligncenter">$18/hr</a>
-                                        <b class="alignright" href="url">Reviews</b>
-                                    </div>
-                                    <div class="course-details">
-                                        <c class="alignleft">PHYS 2C</c>
-                                        <a class="aligncenter">$20/hr</a>
-                                        <b class="alignright" href="url">Reviews</b>
-                                    </div>
-                                    <div class="course-details">
-                                        <c class="alignleft">PHYS 2D</c>
-                                        <a class="aligncenter">$22/hr</a>
+                                        <c class="alignleft">{{class2}}</c>
+                                        <a class="aligncenter">{{rate2}}</a>
                                         <b class="alignright" href="url">Reviews</b>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row" id="chemistry-box">
-                                <div class="skill-box col-xs-4" id="chemistry-details">
-                                    Chemistry
-                                    <div class="course-details">
-                                        <c class="alignleft">CHEM 6A</c>
-                                        <a class="aligncenter">$17/hr</a>
-                                        <b class="alignright" href="url">Reviews</b>
-                                    </div>
-                                    <div class="course-details">
-                                        <c class="alignleft">CHEM 6B</c>
-                                        <a class="aligncenter">$19.50/hr</a>
-                                        <b class="alignright" href="url">Reviews</b>
-                                    </div>
-                                </div>
-                            </div>
+                            {{/each}}
                         </div>
                     </div>
                 </div>

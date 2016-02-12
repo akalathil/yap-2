@@ -47,7 +47,7 @@ app.get('/teach_listing_beauty', teach_listing.beauty);
 app.get('/teach_listing_search', teach_listing.search);
 app.get('/', index.login);
 
-app.get('/user_profile', user_profile.profile);
+app.get('/user_profile', user_profile.getprofile);
 app.get('/message', message.messenger);
 // Example route
 // app.get('/users', user.list);
