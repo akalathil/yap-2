@@ -7,12 +7,12 @@
             "contactnumber": "123-456-7890",
             "quality":"4.7",
             "classes": [
-                {"courseID":"Physcis","sectionID":"PHYS 2A","rate":"16","Sheldon was a wonderful and understanding teacher that helped me do more than just pass PHYS 2A! I got an A+!"},
-                {"courseID":"Physics","sectionID":"PHYS 2B","rate":"18","Sheldon was a wonderful and understanding teacher that helped me do more than just pass PHYS 2B! I got an A!"},
-                {"courseID":"Physics","sectionID":"PHYS 2C","rate":"20","Sheldon was a wonderful and understanding teacher that helped me do more than just pass PHYS 2C! I got an A-!"},
-                {"courseID":"Physics","sectionID":"PHYS 2D","rate":"22","Sheldon was a wonderful and understanding teacher that helped me do more than just pass PHYS 2D! I got an B+!"},
-                {"courseID":"Chemistry","sectionID":"CHEM 6A","rate":"17","I hate chemistry but Sheldon was cool."},
-                {"courseID":"Chemistry","sectionID":"CHEM 6B","rate":"19.50","I hate chemistry but Sheldon was cool."}
+                {"courseID":"Physcis","sectionID":"PHYS 2A","rate":"16","comment": "Sheldon was a wonderful and understanding teacher that helped me do more than just pass PHYS 2A! I got an A+!"},
+                {"courseID":"Physics","sectionID":"PHYS 2B","rate":"18", "comment":"Sheldon was a wonderful and understanding teacher that helped me do more than just pass PHYS 2B! I got an A!"},
+                {"courseID":"Physics","sectionID":"PHYS 2C","rate":"20", "comment":"Sheldon was a wonderful and understanding teacher that helped me do more than just pass PHYS 2C! I got an A-!"},
+                {"courseID":"Physics","sectionID":"PHYS 2D","rate":"22", "comment":"Sheldon was a wonderful and understanding teacher that helped me do more than just pass PHYS 2D! I got an B+!"},
+                {"courseID":"Chemistry","sectionID":"CHEM 6A","rate":"17", "comment":"I hate chemistry but Sheldon was cool."},
+                {"courseID":"Chemistry","sectionID":"CHEM 6B","rate":"19.50", "comment":"I hate chemistry but Sheldon was cool."}
             ],
             "imageURL": "/img/profile-edu-01.jpg"            
         },
@@ -23,8 +23,8 @@
             "contactnumber": "233-226-1990",
             "quality":"5.0",
             "classes": [
-                {"courseID":"HCI Design","sectionID":"COGS 120","rate":"50","Scott is an amazing professor that provies thoughtful insights into his HCI class."},
-                {"courseID":"Prototyping","sectionID":"COGS 420","rate":"50","I was really surprised by this class, we played a lot with origami!"}
+                {"courseID":"HCI Design","sectionID":"COGS 120","rate":"50", "comment":"Scott is an amazing professor that provies thoughtful insights into his HCI class."},
+                {"courseID":"Prototyping","sectionID":"COGS 420","rate":"50", "comment":"I was really surprised by this class, we played a lot with origami!"}
             ],
             "imageURL": "/img/profile-edu-02.jpg"            
         },
@@ -35,8 +35,8 @@
             "contactnumber": "858-420-4242",
             "quality":"4.2",
             "classes": [
-                {"courseID":"OOP: Java","sectionID":"CSE 11","rate":"42","Rick is THE computer science professor at UCSD. He is recognized everywhere. Few know that he is but a simple boy from the Midwest."},
-                {"courseID":"Compilers","sectionID":"CSE 131","rate":"42","Rick is THE computer science professor at UCSD. He is recognized everywhere. Few know that he is but a simple boy from the Midwest."}
+                {"courseID":"OOP: Java","sectionID":"CSE 11","rate":"42","comment":"Rick is THE computer science professor at UCSD. He is recognized everywhere. Few know that he is but a simple boy from the Midwest."},
+                {"courseID":"Compilers","sectionID":"CSE 131","rate":"42","comment":"Rick is THE computer science professor at UCSD. He is recognized everywhere. Few know that he is but a simple boy from the Midwest."}
             ],
             "imageURL": "/img/profile-edu-03.jpg"            
         },
@@ -47,8 +47,8 @@
             "contactnumber": "111-222-3333",
             "quality":"4.0",
             "classes": [
-                {"courseID":"US Politics","sectionID":"POLI 101","rate":"333","When he stops talking and turns to look at you, you're in trouble."},
-                {"courseID":"Cards","sectionID":"POLI 102","rate":"333","He taught me some cool tricks on how to spend filibuster time on the floor, like playing solitaire."}
+                {"courseID":"US Politics","sectionID":"POLI 101","rate":"333","comment":"When he stops talking and turns to look at you, you're in trouble."},
+                {"courseID":"Cards","sectionID":"POLI 102","rate":"333","comment":"He taught me some cool tricks on how to spend filibuster time on the floor, like playing solitaire."}
             ],
             "imageURL": "/img/profile-edu-04.jpg"            
         },
@@ -59,8 +59,8 @@
             "contactnumber": "000-867-5309",
             "quality":"4.9",
             "classes": [
-                {"courseID":"Body Building","sectionID":"Basics","rate":"5","He was great but I was blinded by his swoleness so I couldn't see."},
-                {"courseID":"Terminating","sectionID":"99","rate":"333","The sequel to his basic bodybuilding classes teaches you applications to real world problems."}
+                {"courseID":"Body Building","sectionID":"Basics","rate":"5","comment":"He was great but I was blinded by his swoleness so I couldn't see."},
+                {"courseID":"Terminating","sectionID":"99","rate":"333","comment":"The sequel to his basic bodybuilding classes teaches you applications to real world problems."}
             ],
             "imageURL": "/img/profile-fitness-01.jpg"            
         },
@@ -71,8 +71,8 @@
             "contactnumber": "Direct Message",
             "quality":"5.0",
             "classes": [
-                {"courseID":"Singing","sectionID":"Pitch and Melody","rate":"500","She even gave me a free autograph afterwards! Would recommend."},
-                {"courseID":"Song Writing","sectionID":"Basics","rate":"600","I really enjoyed our sessions because it was very hands on, and Taylor sang my songs. :)"}
+                {"courseID":"Singing","sectionID":"Pitch and Melody","rate":"500","comment":"She even gave me a free autograph afterwards! Would recommend."},
+                {"courseID":"Song Writing","sectionID":"Basics","rate":"600","comment":"I really enjoyed our sessions because it was very hands on, and Taylor sang my songs. :)"}
             ],
             "imageURL": "/img/profile-music-01.jpg"            
         },
@@ -83,8 +83,8 @@
             "contactnumber": "123-234-4352",
             "quality":"1.0",
             "classes": [
-                {"courseID":"Sandwiches","sectionID":"Paninis","rate":"60","Would not take again, he made me cry."},
-                {"courseID":"Eggs","sectionID":"Not Overcooking Them","rate":"600","Took a class with Ramsey again, still negative experience, he made me cry."}
+                {"courseID":"Sandwiches","sectionID":"Paninis","rate":"60","comment":"Would not take again, he made me cry."},
+                {"courseID":"Eggs","sectionID":"Not Overcooking Them","rate":"600","comment":"Took a class with Ramsey again, still negative experience, he made me cry."}
             ],
             "imageURL": "/img/profile-culinary-01.jpg"            
         },
@@ -95,8 +95,8 @@
             "contactnumber": "164-738-0042",
             "quality":"4.4",
             "classes": [
-                {"courseID":"Contouring","sectionID":"Advanced Terraforming","rate":"15","Michelle was very professional and turned me into a beautiful snowflake."},
-                {"courseID":"Eye Makeup","sectionID":"Eyeliner","rate":"15","Michelle opened my eyes to the world of hi-tech makeup."}
+                {"courseID":"Contouring","sectionID":"Advanced Terraforming","rate":"15","comment":"Michelle was very professional and turned me into a beautiful snowflake."},
+                {"courseID":"Eye Makeup","sectionID":"Eyeliner","rate":"15","comment":"Michelle opened my eyes to the world of hi-tech makeup."}
             ],
             "imageURL": "/img/profile-beauty-01.jpg"            
         }
