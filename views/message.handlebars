@@ -9,11 +9,44 @@
 
     <link href="../css/yap.css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/components.min.css" rel="stylesheet">
+    <link href="../css/core.min.css" rel="stylesheet">
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
+    <div class="message-box">
+        <div class="heading">
+            Messages
+                <a href="#"><i class="fa fa-pencil-square-o"></i></a>
+        </div>
+
+        <ul class="media-list">
+            {{#each messages}}
+            <li class="media">
+                <div class="media-left">
+                    <img src={{img-src}} class="img-circle img-sm" alt="">
+                    <!-- <span class="badge bg-danger-400 media-badge">5</span> -->
+                </div>
+
+                <div class="media-body">
+                    <a href="#" class="media-heading">
+                        <span class="text-semibold">{{name}}</span>
+                        <span class="media-annotation pull-right">{{time}}</span>
+                    </a>
+
+                    <span class="text-muted">{{last-message}}</span>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+
+        <div class="dropdown-content-footer">
+            <a href="#" data-popup="tooltip" title="All messages"><i class="icon-menu display-block"></i></a>
+        </div>
+    </div>
+
 
     <!-- footer -->
     <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
@@ -48,48 +81,60 @@
     .header-icon {
         font-size: 1.15em;
     }
-    .fa-star {
-        color: #F5E050;
-        text-shadow: 2px 2px 2px #ccc;
-        text-align: center;
-
+    .fa-pencil-square-o {
+        float: right;
     }
-    .profile {
-        padding: 7px;
+    .heading {
+        font-size: 3.5rem;
+        font-weight: bolder;
     }
-    .img-circle {
-        width: 100px;
-        height: 100px;
-        border: 2px solid black;
-        border-radius: 50%;
+    .message-box {
+        padding: 1rem;
     }
-    .skill-box {
-        font-size: 16px;
+    .heading {
+        padding: 1rem 0;
+    }
+    .bg-danger-400 {
+        background-color: #EF5350 !important;
+        color: #fff;
+    }
+    .media-badge {
+        position: absolute;
+        left: -10px;
+        top: -7px;
+    }
+    .badge {
+        padding: 1px 5px 0px 5px;
+        font-size: 10px;
+        letter-spacing: 0.1px;
+        vertical-align: baseline;
+        background-color: transparent;
+        border: 1px solid transparent;
+    }
+    .badge {
         display: inline-block;
-        border: 1px solid ##55B4B0;
-        border-radius: 5px;
+        min-width: 10px;
+        padding: 3px 7px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.5384616;
+        vertical-align: middle;
+        white-space: nowrap;
         text-align: center;
-        margin: 0px 5px;
-        left: 20px;
-        top: 5px;
-        right: 20px;
-        background-color: #55B4B0;
-        color: white;
+        background-color: #999999;
+        border-radius: 15px;
     }
-    /*#name{
-        text-align: center;
+    .media-body {
+        font-size: 2rem;
     }
-    #name-rating{
-        padding-left: 0px;
+    .img-sm {
+        width: 55px!important;
+        height: 55px!important;
     }
-    #teach-listing{
-        background-color: #034f84;
-        margin-top: 60px;
+    .media-annotation {
+        font-size: 16px;
     }
-    #rating{
-        text-align: center;
-        font-size: 2.5em;
-    }*/
 </style>
 
 </html>
