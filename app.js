@@ -48,7 +48,9 @@ app.get('/teach_listing_search', teach_listing.search);
 app.get('/', index.login);
 
 app.get('/user_profile', user_profile.getprofile);
-app.get('/message', message.messenger);
+app.get('/messenger', message.messenger);
+app.get('/message', message.message);
+
 // Example route
 // app.get('/users', user.list);
 

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>YAP - Peer Mentor</title>
 
     <link href="../css/yap.css" rel="stylesheet">
@@ -19,33 +18,34 @@
 
 <body>
     <div class="message-box">
-        {{#each message}}
         <div class="heading">
-            {{name}}
+            Messages
+                <a href="#"><i class="fa fa-pencil-square-o"></i></a>
         </div>
 
         <ul class="media-list">
-            {{#each messages}}
-            <li class="media">
-                <div class="media-left">
-                    <img src={{img-src}} class="img-circle img-sm" alt="">
-                </div>
+            {{#each messenger}}
+                <li class="media">
+                    <div class="media-left">
+                        <img src={{img-src}} class="img-circle img-sm" alt="">
+                        <!-- <span class="badge bg-danger-400 media-badge">5</span> -->
+                    </div>
 
-                <div class="media-body">
-                    <a href="#" class="media-heading">
-                        <span class="media-annotation pull-right">{{time}}</span>
-                    </a>
+                    <div class="media-body">
+                        <a href={{href}} class="media-heading">
+                            <span class="text-semibold">{{name}}</span>
+                            <span class="media-annotation pull-right">{{time}}</span>
+                        </a>
 
-                    <span class="text-muted">{{message}}</span>
-                </div>
-            </li>
+                        <span class="text-muted">{{last-message}}</span>
+                    </div>
+                </li>
             {{/each}}
         </ul>
-        {{/each}}
-    </div>
-    <div class="reply col-xs-12">
-        <input type="text" name="response" id="reply-text">
-        <div class="btn" id="reply-btn">Reply</div>
+
+        <div class="dropdown-content-footer">
+            <a href="#" data-popup="tooltip" title="All messages"><i class="icon-menu display-block"></i></a>
+        </div>
     </div>
 
 
@@ -135,21 +135,6 @@
     }
     .media-annotation {
         font-size: 16px;
-    }
-    #reply-text {
-        width: 75%;
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-    #reply-btn {
-        background-color: #55B4B0;
-        font-size: 1.5rem;
-        font-weight: bolder;
-    }
-    .reply {
-        margin-top: 20px;
-        line-height: 2;
     }
 </style>
 

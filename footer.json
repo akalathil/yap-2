@@ -51,7 +51,7 @@
 			"label": "Back"
 		},
 		{
-			"href": "/message",
+			"href": "/messenger",
 			"icon": "fa-comments",
 			"label": "Message"
 		},
@@ -158,24 +158,44 @@
 			"rate2": "$19.50/hr"
 		}
 	],
-	"messages": [
+	"messenger": [
 		{
 			"img-src": "../img/profile-edu-03.jpg",
 			"name": "Rick Ord",
 			"time": "04:20",
+			"href": "/message",
 			"last-message": "Are you still down to meet for Java Programming?"
 		},
 		{
 			"img-src": "../img/profile-culinary-01.jpg",
 			"name": "Gordon Ramsey",
 			"time": "11:30",
+			"href": "/messenger",
 			"last-message": "You want to learn how to make scrambled eggs?"
 		},
 		{
 			"img-src": "../img/profile-music-01.jpg",
 			"name": "Taylor Swift",
 			"time": "17:45",
+			"href": "/messenger",
 			"last-message": "Sheldon! Can you teach me physics?"
+		}
+	],
+	"message": [
+		{
+			"name": "Rick Ord",
+			"messages": [
+				{
+					"img-src": "../img/profile-edu-03.jpg",
+					"time": "04:19",
+					"message": "Hey Sheldon."
+				},
+				{
+					"img-src": "../img/profile-edu-03.jpg",
+					"time": "04:20",
+					"message": "Are you still down to meet for Java Programming?"
+				}
+			]
 		}
 	]
 }
