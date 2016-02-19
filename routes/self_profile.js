@@ -1,5 +1,5 @@
 // Get all of our friend data
-var data = require("../users.json");
+var data = require("../self_information.json");
 
 exports.getprofile = function(req, res){
 
@@ -20,8 +20,9 @@ exports.getprofile = function(req, res){
         index++;
     }
     /*console.log(data);*/
-    /*
-    res.render('self_profile', userData); */
+    
+
+    res.render('self_profile', data); 
 }
 
 

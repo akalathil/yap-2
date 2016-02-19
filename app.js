@@ -13,7 +13,7 @@ var index = require('./routes/index');
 // var user = require('./routes/user');
 var teach_listing=require('./routes/teach_listing');
 var user_profile=require('./routes/user_profile');
-
+var self_profile=require('./routes/self_profile');
 var message=require('./routes/message');
 
 var app = express();
@@ -47,6 +47,7 @@ app.get('/teach_listing_culinary', teach_listing.culinary);
 app.get('/teach_listing_beauty', teach_listing.beauty);
 app.get('/teach_listing_search', teach_listing.search);
 app.get('/', index.login);
+app.get('/self_profile',self_profile.getprofile)
 
 app.get('/user_profile', user_profile.getprofile);
 app.get('/message', message.messenger);

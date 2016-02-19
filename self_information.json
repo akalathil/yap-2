@@ -1,0 +1,16 @@
+{   
+            "fullname": "Arvind Kalathil",
+            "firstname": "Arvind",
+            "lastname": "Kalathil",
+            "contactnumber": "123-456-7890",
+            "quality":"0.0",
+            "classes": [
+                {"courseID":"Computer Science","sectionID":"CSE 12","rate":"12"},
+                {"courseID":"Computer Science","sectionID":"CSE 15L","rate":"15"}
+            ],
+            "desire": [
+                {"courseID":"Arts", "sectionID":"How to Sing"},
+                {"courseID":"Arts", "sectionID":"Basic Ukulele Lessons"}
+            ],
+            "imageURL": "/img/profile-arvind.jpg"
+}

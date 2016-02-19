@@ -19,14 +19,34 @@
                     <div class="box" id="blue-box">
                         <div class="inner row">
                             <div class="profile col-xs-4">
-                                <img class="img-circle" src="{{imageURL}}">
+                                <img class="img-circle" src="img/profile-arvind.jpg">
                             </div>
                             <div class="col-xs-8" id="name-rating">
-                                <div class="row" id="name">
+                                <div class="row" id="name" contentEditable="true">
                                     <h3>Arvind Kalathil</h3>
                                 </div>
                             </div>
                         </div>
+                        <h5><center>Want to Teach</center></h5>
+                           {{#each classes}}
+                                <div class= "name" id="class-details">
+                                    <div class="course-details">
+                                        <c class="alignleft" contentEditable="true">{{sectionID}}</c>
+                                        <a class="aligncenter">Set your rate: </a> <a contentEditable>${{rate}} </a>
+                                    </div>                         
+                                </div>
+                            {{/each}}
+
+                        <h5><center>Want to Learn</center></h5>
+                           {{#each desire}}
+                                <div class= "name" id="class-details">
+                                    <div class="course-details">
+                                        <c class="alignleft" contentEditable="true">{{sectionID}}</c>
+                                    </div>                         
+                                </div>
+                            {{/each}}
+                        </div>
+
                     <!--
                         <div class="row" id="physics-box">
                             <div class="skill-box col-xs-4" id="physics-details">
@@ -58,7 +78,7 @@
                             </div>
                         </div>
                     -->
-                    </div>
+                    
                 </div>
             </div>
         </div>
