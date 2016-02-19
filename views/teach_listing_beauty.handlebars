@@ -38,27 +38,29 @@
 
                 {{#each teach_beauty_listing}}
                 <div class="list-box col-xs-12">
-                    <div class="box">
-                        <div class="inner row">
-                            <div class="profile col-xs-4">
-                                <img class="img-circle" src={{img-src}}>
-                            </div>
-                            <div class="col-xs-8" id="name-rating">
-                                <div class="row" id="name">
-                                    <h3>{{name}}</h3>
+                    <a href="/user_profile?name={{name}}">
+                        <div class="box">
+                            <div class="inner row">
+                                <div class="profile col-xs-4">
+                                    <img class="img-circle" src={{img-src}}>
                                 </div>
-                                <div class="row" id="rating">
-                                    <i class="fa fa-star" id="yellow-star">
-                                        <span style="color:black">{{rating}}</span>
-                                    </i>
+                                <div class="col-xs-8" id="name-rating">
+                                    <div class="row" id="name">
+                                        <h3>{{name}}</h3>
+                                    </div>
+                                    <div class="row" id="rating">
+                                        <i class="fa fa-star" id="yellow-star">
+                                            <span style="color:black">{{rating}}</span>
+                                        </i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         <div class="row">
                             <div class="skill-box col-xs-4">{{skill_1}}</div>
                             <div class="skill-box col-xs-4">{{skill_2}}</div>
                         </div>
                     </div>
+                </a>
                 </div>
                 {{/each}}
             </div>
