@@ -14,6 +14,10 @@
                 {"courseID":"Chemistry","sectionID":"CHEM 6A","rate":"17", "comment":"I hate chemistry but Sheldon was cool."},
                 {"courseID":"Chemistry","sectionID":"CHEM 6B","rate":"19.50", "comment":"I hate chemistry but Sheldon was cool."}
             ],
+            "desires": [
+                {"subject": "Public Speaking"}, 
+                {"subject": "Cleaning"}
+            ],
             "imageURL": "/img/profile-edu-01.jpg"            
         },
         {
@@ -26,6 +30,10 @@
                 {"courseID":"HCI Design","sectionID":"COGS 120","rate":"50", "comment":"Scott is an amazing professor that provies thoughtful insights into his HCI class."},
                 {"courseID":"Prototyping","sectionID":"COGS 420","rate":"50", "comment":"I was really surprised by this class, we played a lot with origami!"}
             ],
+            "desires": [
+                {"subject": "Ruby"}, 
+                {"subject": "Python"}
+            ],
             "imageURL": "/img/profile-edu-02.jpg"            
         },
         {
@@ -33,10 +41,14 @@
             "firstname": "Rick",
             "lastname": "Ord",
             "contactnumber": "858-420-4242",
-            "quality":"4.2",
+            "quality":"4.20",
             "classes": [
                 {"courseID":"OOP: Java","sectionID":"CSE 11","rate":"42","comment":"Rick is THE computer science professor at UCSD. He is recognized everywhere. Few know that he is but a simple boy from the Midwest."},
                 {"courseID":"Compilers","sectionID":"CSE 131","rate":"42","comment":"Rick is THE computer science professor at UCSD. He is recognized everywhere. Few know that he is but a simple boy from the Midwest."}
+            ],
+            "desires": [
+                {"subject": "ARM"}, 
+                {"subject": "How to make a pizza"}
             ],
             "imageURL": "/img/profile-edu-03.jpg"            
         },
@@ -50,6 +62,9 @@
                 {"courseID":"US Politics","sectionID":"POLI 101","rate":"333","comment":"When he stops talking and turns to look at you, you're in trouble."},
                 {"courseID":"Cards","sectionID":"POLI 102","rate":"333","comment":"He taught me some cool tricks on how to spend filibuster time on the floor, like playing solitaire."}
             ],
+            "desires": [
+                {"subject": "Barbeque"}
+            ],
             "imageURL": "/img/profile-edu-04.jpg"            
         },
         {
@@ -61,6 +76,10 @@
             "classes": [
                 {"courseID":"Body Building","sectionID":"Basics","rate":"5","comment":"He was great but I was blinded by his swoleness so I couldn't see."},
                 {"courseID":"Terminating","sectionID":"99","rate":"333","comment":"The sequel to his basic bodybuilding classes teaches you applications to real world problems."}
+            ],
+            "desires": [
+                {"subject": "Cooking"}, 
+                {"subject": "Dancing"}
             ],
             "imageURL": "/img/profile-fitness-01.jpg"            
         },
@@ -74,6 +93,10 @@
                 {"courseID":"Singing","sectionID":"Pitch and Melody","rate":"500","comment":"She even gave me a free autograph afterwards! Would recommend."},
                 {"courseID":"Song Writing","sectionID":"Basics","rate":"600","comment":"I really enjoyed our sessions because it was very hands on, and Taylor sang my songs. :)"}
             ],
+            "desires": [
+                {"subject": "Swimming"}, 
+                {"subject": "Dancing"}
+            ],
             "imageURL": "/img/profile-music-01.jpg"            
         },
         {
@@ -86,6 +109,10 @@
                 {"courseID":"Sandwiches","sectionID":"Paninis","rate":"60","comment":"Would not take again, he made me cry."},
                 {"courseID":"Eggs","sectionID":"Not Overcooking Them","rate":"600","comment":"Took a class with Ramsey again, still negative experience, he made me cry."}
             ],
+            "desires": [
+                {"subject": "How to play the piano"}, 
+                {"subject": "Yoga"}
+            ],
             "imageURL": "/img/profile-culinary-01.jpg"            
         },
         {
@@ -97,6 +124,10 @@
             "classes": [
                 {"courseID":"Contouring","sectionID":"Advanced Terraforming","rate":"15","comment":"Michelle was very professional and turned me into a beautiful snowflake."},
                 {"courseID":"Eye Makeup","sectionID":"Eyeliner","rate":"15","comment":"Michelle opened my eyes to the world of hi-tech makeup."}
+            ],
+            "desires": [
+                {"subject": "Dancing"}, 
+                {"subject": "Singing"}
             ],
             "imageURL": "/img/profile-beauty-01.jpg"            
         }

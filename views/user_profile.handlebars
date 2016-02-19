@@ -30,7 +30,7 @@
                                 <div class="row" id="rating">
                                     <h3>{{quality}}/5</h3>
                                     <i class="fa fa-mobile fa-lg" id="contact-button">
-                                    <a href="/message">
+                                    <a href="/messenger">
                                         <contact style="color:black">CONTACT</contact>
                                     </a>
                                     </i>
@@ -44,6 +44,16 @@
                                     <div class="course-details">
                                         <c class="alignleft">{{sectionID}}</c>
                                         <a class="aligncenter">Rates: ${{rate}}</a>
+                                    </div>                         
+                                </div>
+                            {{/each}}
+                        </div>
+                        <div class="row" id="physics-box2">
+                         <h5><center>Willing to learn</center></h5>
+                           {{#each desires}}
+                                <div class= "name" id="class-details">
+                                    <div class="course-details">
+                                        <c class="alignleft">{{subject}}</c>
                                     </div>                         
                                 </div>
                             {{/each}}
@@ -156,6 +166,9 @@
             position: relative;
         }
         #physics-box{
+            margin: 0 auto;
+        }
+        #physics-box2{
             margin: 0 auto;
         }
         #physics-details{
