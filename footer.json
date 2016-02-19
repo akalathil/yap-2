@@ -46,9 +46,9 @@
 			"label": "Learn"
 		},
 		{
-			"href": "/home",
-			"icon": "fa-apple",
-			"label": "Teach"
+			"href": "javascript:history.back()",
+			"icon": "fa-angle-double-left",
+			"label": "Back"
 		},
 		{
 			"href": "/message",
