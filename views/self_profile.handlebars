@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="../css/yap.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+    <body>
+        <div class="section group" id="profile-details">
+            <div class="row">
+                <div class="list-box col-xs-12" id="white-box">
+                    <div class="box" id="blue-box">
+                        <div class="inner row">
+                            <div class="profile col-xs-4">
+                                <img class="img-circle" src="{{imageURL}}">
+                            </div>
+                            <div class="col-xs-8" id="name-rating">
+                                <div class="row" id="name">
+                                    <h3>Arvind Kalathil</h3>
+                                </div>
+                            </div>
+                        </div>
+                    <!--
+                        <div class="row" id="physics-box">
+                            <div class="skill-box col-xs-4" id="physics-details">
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_1}}</c>
+                                    <a class="aligncenter">$16/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_2}}</c>
+                                    <a class="aligncenter">$18/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_3}}</c>
+                                    <a class="aligncenter">$20/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>                          
+                            </div>
+                        </div>
+                        <div class="row" id="chemistry-box">
+                            <div class="skill-box col-xs-4" id="chemistry-details">
+                                <h5>{{skill_2}}</h5>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_4}}</c>
+                                    <a class="aligncenter">$17/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                            </div>
+                        </div>
+                    -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
+            <a href="/home" class="icon">
+                <i class="fa fa-graduation-cap fa-lg"></i>
+                <span>Learn</span>
+            </a>
+            <a href="/home" class="icon">
+                <i class="fa fa-apple fa-lg"></i>
+                <span>Teach</center>
+            </a>
+            <a href="#" class="icon">
+                <i class="fa fa-comments fa-lg"></i>
+                <span>Message</center>
+            </a>
+            <a href="#" class="icon">
+                <i class="fa fa-user fa-lg"></i>
+                <span>Profile</center>
+            </a>
+        </footer>
+    </body>
+    <style>
+        h3{
+            font-size: 27px;
+        }
+        .box {
+            border: 1px solid black;
+            border-radius: 5px;
+            height: inherit;
+            background-color: #f4f4f5;
+        }
+        .list-box {
+            margin: 10px auto;
+            height: 156px;
+        }
+        .inner {
+            margin: 0px;
+        }
+        .fa-star {
+            color: #F5E050;
+            text-shadow: 2px 2px 2px #ccc;
+            text-align: center;
+
+        }
+        .profile {
+            padding: 7px;
+        }
+        .img-circle {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+        .skill-box {
+            font-size: 16px;
+            display: inline-block;
+            border: 1px solid ##55B4B0;
+            border-radius: 5px;
+            text-align: center;
+            margin: 5px 5px;
+            left: 20px;
+            top: 5px;
+            right: 20px;
+            background-color: #55B4B0;
+            color: white;
+        }
+        .skill-box-expanded{
+            font-size: 16px;
+            display: inline-block;
+            border: 5px solid ##55B4B0;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0px 5px;
+            left: 20px;
+            top: 5px;
+            right: 20px;
+            background-color: blue;
+        }
+        .course-details{
+            text-align: left;
+            font-size: .75em;
+        }
+        #name{
+            text-align: center;
+        }
+        #name-rating{
+            padding-left: 0px;
+        }
+        #blue-box{
+            height: 100%;
+        }
+        #profile-details{
+            background-color: #034f84;
+            height: 5000px;
+            width: 100%;
+            position: relative;
+        }
+        #physics-box{
+            margin: 0 auto;
+        }
+        #physics-details{
+            height:50%;
+            width:87%;
+            margin: 5 auto;
+        }
+        #chemistry-box{
+            margin: 0 auto;
+        }
+        #chemistry-details{
+            height:50%;
+            width:87%;
+            margin: 5 auto;
+        }
+        #white-box{
+            height: 100%;
+            width: 99%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #rating{
+            text-align: center;
+            font-size: 2.5em;
+        }
+        #contact-button{
+            background-color: gray;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .class-details{
+
+        }
+        b{
+            font color="red";
+        }
+    </style>
+
+</html>

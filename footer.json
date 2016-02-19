@@ -56,7 +56,7 @@
 			"label": "Message"
 		},
 		{
-			"href": "/user_profile",
+			"href": "/self_profile",
 			"icon": "fa-user",
 			"label": "Profile"
 		}
