@@ -46,9 +46,9 @@
 			"label": "Learn"
 		},
 		{
-			"href": "/home",
-			"icon": "fa-apple",
-			"label": "Teach"
+			"href": "javascript:history.back()",
+			"icon": "fa-angle-double-left",
+			"label": "Back"
 		},
 		{
 			"href": "/message",
@@ -100,7 +100,7 @@
 			"img-src": "../img/profile-fitness-01.jpg",
 			"name": "Arnold S.",
 			"rating": "4.9",
-			"skill_1": "Body Building",
+			"skill_1": "Work Out",
 			"skill_2": "Terminator"
 		}
 	],

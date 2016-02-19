@@ -13,6 +13,8 @@
 
 </head>
     <body>
+        <!-- Button trigger modal -->
+
         <div class="section group" id="profile-details">
             <div class="row">
                 <div class="list-box col-xs-12" id="white-box">
@@ -28,40 +30,30 @@
                                 <div class="row" id="rating">
                                     <h3>{{quality}}/5</h3>
                                     <i class="fa fa-mobile fa-lg" id="contact-button">
+                                    <a href="/message">
                                         <contact style="color:black">CONTACT</contact>
-                                        <h5>{{contactnumber}}</h5>
+                                    </a>
                                     </i>
                                 </div>
                             </div>
                         </div>
                         <div class="row" id="physics-box">
-                            <div class="skill-box col-xs-4" id="physics-details">
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_1}}</c>
-                                    <a class="aligncenter">$16/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
+                         <h5><center>Willing to teach</center></h5>
+                           {{#each classes}}
+                                <div class= "name" id="class-details">
+                                    <div class="course-details">
+                                        <c class="alignleft">{{sectionID}}</c>
+                                        <a class="aligncenter">Rates: ${{rate}}</a>
+                                    </div>                         
                                 </div>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_2}}</c>
-                                    <a class="aligncenter">$18/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_3}}</c>
-                                    <a class="aligncenter">$20/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>                          
-                            </div>
+                            {{/each}}
                         </div>
                         <div class="row" id="chemistry-box">
-                            <div class="skill-box col-xs-4" id="chemistry-details">
-                                <h5>{{skill_2}}</h5>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_4}}</c>
-                                    <a class="aligncenter">$17/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                            </div>
+                            <h5><center>Reviews</center><h5>
+                            {{#each classes}}
+                            <div class = "name" id ="reviews"> 
+                             <h6>-{{comment}}</h6>
+                            {{/each}}
                         </div>
                     </div>
                 </div>
@@ -72,9 +64,9 @@
                 <i class="fa fa-graduation-cap fa-lg"></i>
                 <span>Learn</span>
             </a>
-            <a href="/home" class="icon">
-                <i class="fa fa-apple fa-lg"></i>
-                <span>Teach</center>
+            <a href="javascript:history.back()" class="icon">
+                <i class="fa fa-angle-double-left fa-lg"></i>
+                <span>Back</center>
             </a>
             <a href="#" class="icon">
                 <i class="fa fa-comments fa-lg"></i>
@@ -197,6 +189,7 @@
             display: inline-block;
             border-radius: 5px;
         }
+    
         .class-details{
 
         }
