@@ -41,14 +41,15 @@
 	],
 	"footer-menu": [
 		{
-			"href": "/home",
-			"icon": "fa-graduation-cap",
-			"label": "Learn"
-		},
-		{
 			"href": "javascript:history.back()",
 			"icon": "fa-angle-double-left",
 			"label": "Back"
+			
+		},
+		{
+			"href": "/home",
+			"icon": "fa-graduation-cap",
+			"label": "Learn"
 		},
 		{
 			"href": "/message",
