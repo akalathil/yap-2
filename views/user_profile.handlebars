@@ -30,7 +30,7 @@
                                 <div class="row" id="rating">
                                     <h3>{{quality}}/5</h3>
                                     <i class="fa fa-mobile fa-lg" id="contact-button">
-                                    <a href="/message">
+                                    <a href="/messenger">
                                         <contact style="color:black">CONTACT</contact>
                                     </a>
                                     </i>
@@ -38,12 +38,22 @@
                             </div>
                         </div>
                         <div class="row" id="physics-box">
-                         <h5><center>Willing to teach</center></h5>
+                         <h5><center>Wants to teach</center></h5>
                            {{#each classes}}
                                 <div class= "name" id="class-details">
                                     <div class="course-details">
                                         <c class="alignleft">{{sectionID}}</c>
                                         <a class="aligncenter">Rates: ${{rate}}</a>
+                                    </div>                         
+                                </div>
+                            {{/each}}
+                        </div>
+                        <div class="row" id="physics-box2">
+                         <h5><center>Wants to learn</center></h5>
+                           {{#each desires}}
+                                <div class= "name" id="class-details">
+                                    <div class="course-details">
+                                        <c class="alignleft">{{subject}}</c>
                                     </div>                         
                                 </div>
                             {{/each}}
@@ -60,6 +70,10 @@
             </div>
         </div>
         <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
+             <a href="javascript:history.back()" class="icon">
+                <i class="fa fa-angle-double-left fa-lg"></i>
+                <span>Back</center>
+             </a>
             <a href="/home" class="icon">
                 <i class="fa fa-graduation-cap fa-lg"></i>
                 <span>Learn</span>
@@ -68,11 +82,12 @@
                 <i class="fa fa-angle-double-left fa-lg"></i>
                 <span>Back</center>
             </a>
+           
             <a href="/messenger" class="icon">
                 <i class="fa fa-comments fa-lg"></i>
                 <span>Message</center>
             </a>
-            <a href="" class="icon">
+            <a href="/self_profile" class="icon">
                 <i class="fa fa-user fa-lg"></i>
                 <span>Profile</center>
             </a>
@@ -155,6 +170,9 @@
             position: relative;
         }
         #physics-box{
+            margin: 0 auto;
+        }
+        #physics-box2{
             margin: 0 auto;
         }
         #physics-details{
