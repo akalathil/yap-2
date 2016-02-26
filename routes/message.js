@@ -3,10 +3,13 @@ var data = require('../footer.json');
 
 exports.messenger = function(req, res){
 	//console.log(data);
+	console.log("BYE")
+
 	res.render('messenger', data);
 };
 
 exports.message = function(req, res){
-	console.log("HI")
-	res.render('message', data);
+	var specificMessage = data["message"][req.params.name];
+	specificMessage['footer-menu'] = data['footer-menu'];
+	res.render('message', specificMessage);
 };

@@ -44,12 +44,12 @@
 			"href": "javascript:history.back()",
 			"icon": "fa-angle-double-left",
 			"label": "Back"
-			
+
 		},
 		{
-			"href": "/home",
-			"icon": "fa-graduation-cap",
-			"label": "Learn"
+			"href": "/self_profile",
+			"icon": "fa-user",
+			"label": "Profile"
 		},
 		{
 			"href": "/messenger",
@@ -57,9 +57,9 @@
 			"label": "Message"
 		},
 		{
-			"href": "/self_profile",
-			"icon": "fa-user",
-			"label": "Profile"
+			"href": "/home",
+			"icon": "fa-graduation-cap",
+			"label": "Learn"
 		}
 	],
 	"teach_education_listing": [
@@ -68,14 +68,16 @@
 			"name": "Sheldon Cooper",
 			"rating": "4.7",
 			"skill_1": "Physics",
-			"skill_2": "Chemistry"
+			"skill_2": "Chemistry",
+			"skill_z": "Rick Ord"
 		},
 		{
 			"img-src": "../img/profile-edu-02.jpg",
 			"name": "Scott Klemmer",
 			"rating": "5.0",
 			"skill_1": "HCI Design",
-			"skill_2": "Prototyping"
+			"skill_2": "Prototyping",
+			"skill_z": "Rick Ord"
 		},
 		{
 			"img-src": "../img/profile-edu-03.jpg",
@@ -86,7 +88,7 @@
 			"class_1": "CSE 11",
 			"class_2": "CSE 8B",
 			"class_3": "CSE 30",
-			"class_4": "CSE 131"
+			"class_4": "CSE 131 Rick Ord"
 		},
 		{
 			"img-src": "../img/profile-edu-04.jpg",
@@ -164,14 +166,14 @@
 			"img-src": "../img/profile-edu-03.jpg",
 			"name": "Rick Ord",
 			"time": "04:20",
-			"href": "/message",
+			"href": "/message/Rick%20Ord",
 			"last-message": "Are you still down to meet for Java Programming?"
 		},
 		{
 			"img-src": "../img/profile-culinary-01.jpg",
 			"name": "Gordon Ramsey",
 			"time": "11:30",
-			"href": "/messenger",
+			"href": "/message/Gordon%20Ramsey",
 			"last-message": "You want to learn how to make scrambled eggs?"
 		},
 		{
@@ -182,11 +184,12 @@
 			"last-message": "Hey! Can you teach me physics?"
 		}
 	],
-	"message": [
-		{
+	"message": {
+		"Rick Ord": {
 			"name": "Rick Ord",
 			"messages": [
 				{
+
 					"img-src": "../img/profile-edu-03.jpg",
 					"time": "04:19",
 					"message": "Hey Sheldon."
@@ -197,6 +200,21 @@
 					"message": "Are you still down to meet for Java Programming?"
 				}
 			]
+		},
+		"Gordon Ramsey": {
+			"name": "Gordon Ramsey",
+			"messages": [
+				{
+					"img-src": "../img/profile-culinary-01.jpg",
+					"time": "04:19",
+					"message": "Hey Sheldon."
+				},
+				{
+					"img-src": "../img/profile-culinary-01.jpg",
+					"time": "04:20",
+					"message": "Are you still down to meet for Java Programming?"
+				}
+			]
 		}
-	]
+	}
 }
