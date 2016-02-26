@@ -18,34 +18,39 @@
 </head>
 
 <body>
-    <div class="message-box">
-        <div class="heading">
-            {{name}}
+    <div id="wrapper">
+        <div id="page-content-wrapper">
+            <div class="message-box">
+                <div class="heading">
+                    {{name}}
+                </div>
+
+                <ul class="media-list">
+                    {{#each messages}}
+                    <li class="media">
+                        <div class="media-left">
+                            <img src={{img-src}} class="img-circle img-sm" alt="">
+                        </div>
+
+                        <div class="media-body">
+                            <a href="#" class="media-heading">
+                                <span class="media-annotation pull-right">{{time}}</span>
+                            </a>
+
+                            <span class="text-muted">{{message}}</span>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        <div class="reply col-xs-12">
+            <input type="text" name="response" id="reply-text">
+            <div class="btn" id="reply-btn">Reply</div>
         </div>
-
-        <ul class="media-list">
-            {{#each messages}}
-            <li class="media">
-                <div class="media-left">
-                    <img src={{img-src}} class="img-circle img-sm" alt="">
-                </div>
-
-                <div class="media-body">
-                    <a href="#" class="media-heading">
-                        <span class="media-annotation pull-right">{{time}}</span>
-                    </a>
-
-                    <span class="text-muted">{{message}}</span>
-                </div>
-            </li>
-            {{/each}}
-        </ul>
+        <!-- side-bar -->
     </div>
-    <div class="reply col-xs-12">
-        <input type="text" name="response" id="reply-text">
-        <div class="btn" id="reply-btn">Reply</div>
-    </div>
-
+    {{> side-bar}}
+</div>
 
     <!-- footer -->
     {{> footer}}

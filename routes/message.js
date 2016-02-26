@@ -3,8 +3,7 @@ var data = require('../footer.json');
 
 exports.messenger = function(req, res){
 	//console.log(data);
-	console.log("BYE")
-
+	//console.log("BYE")
 	res.render('messenger', data);
 };
 

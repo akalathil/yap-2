@@ -57,9 +57,9 @@
 			"label": "Message"
 		},
 		{
-			"href": "/home",
-			"icon": "fa-graduation-cap",
-			"label": "Learn"
+			"href": "#menu-toggle id = menu-toggle",
+			"icon": "fa fa-bars",
+			"label": "More"
 		}
 	],
 	"teach_education_listing": [

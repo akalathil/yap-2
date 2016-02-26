@@ -15,7 +15,7 @@ exports.education = function(req, res) { 
 		return 0;
 	});
 
-	console.log(result);
+	//console.log(result);
 
 
 	res.render('teach_listing_education', data);

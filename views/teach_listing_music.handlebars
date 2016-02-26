@@ -14,25 +14,9 @@
 </head>
 
 <body>
-
-    <!-- header -->
-    <header class="flexbox navbar navbar-inverse navbar-fixed-top nav" id="header">
-        {{#each category-menu-col1}}
-        <a href={{href}} class="icon">
-            <i class="fa {{icon}} fa-lg header-icon"></i>
-            <span class="icon-label">{{category}}</span>
-        </a>
-        {{/each}}
-        {{#each category-menu-col2}}
-        <a href={{href}} class="icon">
-            <i class="fa {{icon}} fa-lg header-icon"></i>
-            <span class="icon-label">{{category}}</span>
-        </a>
-        {{/each}}
-    </header>
-
     <!-- listing -->
-    <div class="content">
+    <div id="wrapper">
+    <div class="content" id="page-content-wrapper">
         <div class="section group" id="teach-listing">
             <div class="row">
 
@@ -64,7 +48,9 @@
             </div>
         </div>
     </div>
-
+    <!-- side-bar -->
+    {{> side-bar}}
+</div>
     <!-- footer -->
     {{> footer}}
 </body>

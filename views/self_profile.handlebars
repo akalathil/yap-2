@@ -13,6 +13,8 @@
 
 </head>
     <body>
+        <div id="wrapper">
+        <div class="content" id="page-content-wrapper">
         <div class="section group" id="profile-details">
             <div class="row">
                 <div class="list-box col-xs-12" id="white-box">
@@ -85,6 +87,11 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<!-- side-bar -->
+{{> side-bar}}
+</div>
         <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
 
             <a href="javascript:history.back()" class="icon">
@@ -99,11 +106,26 @@
                 <i class="fa fa-comments fa-lg"></i>
                 <span>Message</center>
             </a>
-            <a href="/home" class="icon">
-              <i class="fa fa-graduation-cap fa-lg"></i>
-              <span>Learn</span>
+            <a href="#menu-toggle" id="menu-toggle" class="icon">
+              <i class="fa fa-bars fa-lg"></i>
+              <span>More</span>
             </a>
         </footer>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- /#sidebar-wrapper -->
+        <!-- Menu Toggle Script -->
+        <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            console.log("HI FROM TOGGLE")
+            $("#wrapper").toggleClass("toggled");
+        });
+        </script>
     </body>
     <style>
         h3{

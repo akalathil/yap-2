@@ -13,7 +13,7 @@ exports.getprofile = function(req, res){
 		var currentPerson = users[index];
 		if( currentPerson.fullname == req.query.name){
 			userData = users[index];
-			console.log(userData);
+			//console.log(userData);
 			break;
 		}
 		index++;
@@ -21,5 +21,3 @@ exports.getprofile = function(req, res){
 	/*console.log(data);*/
 	res.render('user_profile', userData);
 }
-
-
