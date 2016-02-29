@@ -22,7 +22,11 @@ exports.getprofile = function(req, res){
     /*console.log(data);*/
     
 
+
+
     res.render('self_profile', data); 
+
+    
 }
 
 
