@@ -34,43 +34,40 @@
 </head>
 
 <body>
-    <div class="section group">
-        <div class="row">
-            <div class="col-xs-6">
-                {{#each category-menu-col1}}
-                    <center>
-                        <div class="flexbox color {{color}}">
-                            <a href={{href}}>
-                                <i class="fa {{icon}} fa-4x"></i>
-                                <span>{{category}}</span>
-                            </a>
-                        </div>
-                    </center>
-                {{/each}}
-            </div>
-            <div class="col-xs-6">
-                {{#each category-menu-col2}}
-                    <center>
-                        <div class="flexbox color {{color}}">
-                            <a href={{href}}>
-                                <i class="fa {{icon}} fa-4x"></i>
-                                <span>{{category}}</span>
-                            </a>
-                        </div>
-                    </center>
-                {{/each}}
+    <div id="wrapper">
+        <div class="section group" id="page-content-wrapper">
+            <div class="row">
+                <div class="col-xs-6">
+                    {{#each footer.category-menu-col1}}
+                        <center>
+                            <div class="flexbox color {{color}}">
+                                <a href={{href}}>
+                                    <i class="fa {{icon}} fa-4x"></i>
+                                    <span>{{category}}</span>
+                                </a>
+                            </div>
+                        </center>
+                    {{/each}}
+                </div>
+                <div class="col-xs-6">
+                    {{#each footer.category-menu-col2}}
+                        <center>
+                            <div class="flexbox color {{color}}">
+                                <a href={{href}}>
+                                    <i class="fa {{icon}} fa-4x"></i>
+                                    <span>{{category}}</span>
+                                </a>
+                            </div>
+                        </center>
+                    {{/each}}
+                </div>
             </div>
         </div>
-    </div>
-
+    <!-- side-bar -->
+    {{> side-bar}}
+</div>
     <!-- footer -->
-    <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
-        {{#each footer-menu}}
-            <a href={{href}} class="icon">
-                <i class="fa {{icon}} fa-lg"></i>
-                <span>{{label}}</span>
-            </a>
-        {{/each}}
-    </footer>
+    {{> footer}}
     {{> googleAnalytics}}
+
 </body>

@@ -13,6 +13,8 @@
 
 </head>
     <body>
+        <div id="wrapper">
+        <div class="content" id="page-content-wrapper">
         <div class="section group" id="profile-details">
             <div class="row">
                 <div class="list-box col-xs-12" id="white-box">
@@ -27,22 +29,25 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row" id="physics-box">
+
                         <h5><center>Want to Teach</center></h5>
                            {{#each classes}}
                                 <div class= "name" id="class-details">
                                     <div class="course-details">
                                         <c class="alignleft" contentEditable="true">{{sectionID}}</c>
                                         <a class="aligncenter">Set your rate: </a> <a contentEditable>${{rate}} </a>
-                                    </div>                         
+                                    </div>
                                 </div>
                             {{/each}}
-
+                        </div>
+                        <div class="row" id="physics-box2">
                         <h5><center>Want to Learn</center></h5>
                            {{#each desire}}
                                 <div class= "name" id="class-details">
                                     <div class="course-details">
                                         <c class="alignleft" contentEditable="true">{{sectionID}}</c>
-                                    </div>                         
+                                    </div>
                                 </div>
                             {{/each}}
                         </div>
@@ -64,7 +69,7 @@
                                     <c class="alignleft">{{class_3}}</c>
                                     <a class="aligncenter">$20/hr</a>
                                     <b class="alignright" href="url">Reviews</b>
-                                </div>                          
+                                </div>
                             </div>
                         </div>
                         <div class="row" id="chemistry-box">
@@ -78,29 +83,51 @@
                             </div>
                         </div>
                     -->
-                    
+
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<!-- side-bar -->
+{{> side-bar}}
+{{> googleAnalytics}}
+
+</div>
         <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
-          
+
             <a href="javascript:history.back()" class="icon">
                 <i class="fa fa-angle-double-left fa-lg"></i>
                 <span>Back</center>
              </a>
-              <a href="/home" class="icon">
-                <i class="fa fa-graduation-cap fa-lg"></i>
-                <span>Learn</span>
-            </a>
+             <a href="#" class="icon">
+                 <i class="fa fa-user fa-lg"></i>
+                 <span>Profile</center>
+             </a>
             <a href="/messenger" class="icon">
                 <i class="fa fa-comments fa-lg"></i>
                 <span>Message</center>
             </a>
-            <a href="#" class="icon">
-                <i class="fa fa-user fa-lg"></i>
-                <span>Profile</center>
+            <a href="#menu-toggle" id="menu-toggle" class="icon">
+              <i class="fa fa-bars fa-lg"></i>
+              <span>More</span>
             </a>
         </footer>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- /#sidebar-wrapper -->
+        <!-- Menu Toggle Script -->
+        <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            console.log("HI FROM TOGGLE")
+            $("#wrapper").toggleClass("toggled");
+        });
+        </script>
     </body>
     <style>
         h3{

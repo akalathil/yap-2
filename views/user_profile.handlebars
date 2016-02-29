@@ -44,7 +44,7 @@
                                     <div class="course-details">
                                         <c class="alignleft">{{sectionID}}</c>
                                         <a class="aligncenter">Rates: ${{rate}}</a>
-                                    </div>                         
+                                    </div>
                                 </div>
                             {{/each}}
                         </div>
@@ -54,14 +54,14 @@
                                 <div class= "name" id="class-details">
                                     <div class="course-details">
                                         <c class="alignleft">{{subject}}</c>
-                                    </div>                         
+                                    </div>
                                 </div>
                             {{/each}}
                         </div>
                         <div class="row" id="chemistry-box">
                             <h5><center>Reviews</center><h5>
                             {{#each classes}}
-                            <div class = "name" id ="reviews"> 
+                            <div class = "name" id ="reviews">
                              <h6>-{{comment}}</h6>
                             {{/each}}
                         </div>
@@ -69,29 +69,10 @@
                 </div>
             </div>
         </div>
-        <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
-             <a href="javascript:history.back()" class="icon">
-                <i class="fa fa-angle-double-left fa-lg"></i>
-                <span>Back</center>
-             </a>
-            <a href="/home" class="icon">
-                <i class="fa fa-graduation-cap fa-lg"></i>
-                <span>Learn</span>
-            </a>    
-            <a href="javascript:history.back()" class="icon">
-                <i class="fa fa-angle-double-left fa-lg"></i>
-                <span>Back</center>
-            </a>
-           
-            <a href="/messenger" class="icon">
-                <i class="fa fa-comments fa-lg"></i>
-                <span>Message</center>
-            </a>
-            <a href="/self_profile" class="icon">
-                <i class="fa fa-user fa-lg"></i>
-                <span>Profile</center>
-            </a>
-        </footer>
+        <!-- footer -->
+        {{> footer}}
+        {{> googleAnalytics}}
+
     </body>
     <style>
         h3{
@@ -165,7 +146,7 @@
         }
         #profile-details{
             background-color: #034f84;
-            height: 5000px;
+            height: 100%;
             width: 100%;
             position: relative;
         }
@@ -207,8 +188,6 @@
             display: inline-block;
             border-radius: 5px;
         }
-
-
         .class-details{
 
         }

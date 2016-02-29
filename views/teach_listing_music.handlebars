@@ -14,29 +14,13 @@
 </head>
 
 <body>
-
-    <!-- header -->
-    <header class="flexbox navbar navbar-inverse navbar-fixed-top nav" id="header">
-        {{#each category-menu-col1}}
-        <a href={{href}} class="icon">
-            <i class="fa {{icon}} fa-lg header-icon"></i>
-            <span class="icon-label">{{category}}</span>
-        </a>
-        {{/each}}
-        {{#each category-menu-col2}}
-        <a href={{href}} class="icon">
-            <i class="fa {{icon}} fa-lg header-icon"></i>
-            <span class="icon-label">{{category}}</span>
-        </a>
-        {{/each}}
-    </header>
-
     <!-- listing -->
-    <div class="content">
+    <div id="wrapper">
+    <div class="content" id="page-content-wrapper">
         <div class="section group" id="teach-listing">
             <div class="row">
 
-                {{#each teach_music_listing}}
+                {{#each footer.teach_music_listing}}
                 <div class="list-box col-xs-12">
                     <a href="/user_profile?name={{name}}">
                         <div class="box">
@@ -64,16 +48,13 @@
             </div>
         </div>
     </div>
-
+    <!-- side-bar -->
+    {{> side-bar}}
+</div>
     <!-- footer -->
-    <footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
-        {{#each footer-menu}}
-            <a href={{href}} class="icon">
-                <i class="fa {{icon}} fa-lg"></i>
-                <span>{{label}}</span>
-            </a>
-        {{/each}}
-    </footer>
+    {{> footer}}
+    {{> googleAnalytics}}
+
 </body>
 <style>
     h3{

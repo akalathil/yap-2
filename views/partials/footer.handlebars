@@ -1,0 +1,27 @@
+<footer class="flexbox navbar navbar-inverse navbar-fixed-bottom nav" id="footer">
+
+    {{#each footer.footer-menu}}
+        <a href={{href}} class="icon">
+            <i class="fa {{icon}} fa-lg"></i>
+            <span>{{label}}</span>
+        </a>
+    {{/each}}
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- /#sidebar-wrapper -->
+<!-- Menu Toggle Script -->
+<script>
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    console.log("HI FROM TOGGLE")
+    $("#wrapper").toggleClass("toggled");
+});
+</script>

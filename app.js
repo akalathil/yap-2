@@ -51,7 +51,7 @@ app.get('/self_profile',self_profile.getprofile)
 
 app.get('/user_profile', user_profile.getprofile);
 app.get('/messenger', message.messenger);
-app.get('/message', message.message);
+app.get('/message/:name', message.message);
 
 // Example route
 // app.get('/users', user.list);
