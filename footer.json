@@ -34,7 +34,8 @@
 		},
 		{
 			"color": "color-6",
-			"href": "/teach_listing_searchm			"icon": "fa-search",
+			"href": "/teach_listing_search",
+			"icon": "fa-search",
 			"category": "Search"
 		}
 	],
