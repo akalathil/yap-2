@@ -25,12 +25,12 @@
                             </div>
                             <div class="col-xs-8" id="name-rating">
                                 <div class="row" id="name" contentEditable="true">
-                                    <h3>Arvind Kalathil</h3>
+                                    <h3 id="responsive-name">Arvind Kalathil</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="row" id="physics-box">
 
+                        <div class="row" id="physics-box">
                         <h5><center>Want to Teach</center></h5>
                            {{#each classes}}
                                 <div class= "name" id="class-details">
@@ -40,49 +40,20 @@
                                     </div>
                                 </div>
                             {{/each}}
+
                         </div>
+
                         <div class="row" id="physics-box2">
                         <h5><center>Want to Learn</center></h5>
                            {{#each desire}}
-                                <div class= "name" id="class-details">
+                                <div class= "name" id="class-details-2">
                                     <div class="course-details">
                                         <c class="alignleft" contentEditable="true">{{sectionID}}</c>
                                     </div>
                                 </div>
                             {{/each}}
-                        </div>
 
-                    <!--
-                        <div class="row" id="physics-box">
-                            <div class="skill-box col-xs-4" id="physics-details">
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_1}}</c>
-                                    <a class="aligncenter">$16/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_2}}</c>
-                                    <a class="aligncenter">$18/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_3}}</c>
-                                    <a class="aligncenter">$20/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                            </div>
                         </div>
-                        <div class="row" id="chemistry-box">
-                            <div class="skill-box col-xs-4" id="chemistry-details">
-                                <h5>{{skill_2}}</h5>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_4}}</c>
-                                    <a class="aligncenter">$17/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                            </div>
-                        </div>
-                    -->
 
                 </div>
             </div>
@@ -199,6 +170,7 @@
         }
         #blue-box{
             height: 100%;
+            background-color: #D3D3D3; 
         }
         #profile-details{
             background-color: #034f84;
@@ -207,6 +179,9 @@
             position: relative;
         }
         #physics-box{
+            margin: 0 auto;
+        }
+        #physics-box2{
             margin: 0 auto;
         }
         #physics-details{
@@ -223,6 +198,7 @@
             margin: 5 auto;
         }
         #white-box{
+
             height: 100%;
             width: 99%;
             margin-left: auto;
@@ -241,8 +217,12 @@
             display: inline-block;
             border-radius: 5px;
         }
-        .class-details{
-
+        #class-details{
+            box-shadow: inset 0px 1px 4px #666;
+            background: white;
+        }
+        #class-details-2{
+            box-shadow: inset 0px 1px 4px #666;
         }
         b{
             font color="red";
@@ -250,3 +230,34 @@
     </style>
 
 </html>
+                    <!--
+                        <div class="row" id="physics-box">
+                            <div class="skill-box col-xs-4" id="physics-details">
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_1}}</c>
+                                    <a class="aligncenter">$16/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_2}}</c>
+                                    <a class="aligncenter">$18/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_3}}</c>
+                                    <a class="aligncenter">$20/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="chemistry-box">
+                            <div class="skill-box col-xs-4" id="chemistry-details">
+                                <h5>{{skill_2}}</h5>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_4}}</c>
+                                    <a class="aligncenter">$17/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                            </div>
+                        </div>
+                    -->
