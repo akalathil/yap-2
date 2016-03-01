@@ -29,8 +29,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row" id="physics-box">
 
+                        <div class="row" id="physics-box">
                         <h5><center>Want to Teach</center></h5>
                            {{#each classes}}
                                 <div class= "name" id="class-details">
@@ -41,48 +41,17 @@
                                 </div>
                             {{/each}}
                         </div>
+
                         <div class="row" id="physics-box2">
                         <h5><center>Want to Learn</center></h5>
                            {{#each desire}}
-                                <div class= "name" id="class-details">
+                                <div class= "name" id="class-details-2">
                                     <div class="course-details">
                                         <c class="alignleft" contentEditable="true">{{sectionID}}</c>
                                     </div>
                                 </div>
                             {{/each}}
                         </div>
-
-                    <!--
-                        <div class="row" id="physics-box">
-                            <div class="skill-box col-xs-4" id="physics-details">
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_1}}</c>
-                                    <a class="aligncenter">$16/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_2}}</c>
-                                    <a class="aligncenter">$18/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_3}}</c>
-                                    <a class="aligncenter">$20/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row" id="chemistry-box">
-                            <div class="skill-box col-xs-4" id="chemistry-details">
-                                <h5>{{skill_2}}</h5>
-                                <div class="course-details">
-                                    <c class="alignleft">{{class_4}}</c>
-                                    <a class="aligncenter">$17/hr</a>
-                                    <b class="alignright" href="url">Reviews</b>
-                                </div>
-                            </div>
-                        </div>
-                    -->
 
                 </div>
             </div>
@@ -207,6 +176,10 @@
         }
         #physics-box{
             margin: 0 auto;
+            box-shadow: inset 0px 1px 4px #666;
+        }
+        #physics-box2{
+            maring: 0 auto;
         }
         #physics-details{
             height:50%;
@@ -243,9 +216,43 @@
         .class-details{
 
         }
+       .class-details-2{
+
+        }
         b{
             font color="red";
         }
     </style>
 
 </html>
+                    <!--
+                        <div class="row" id="physics-box">
+                            <div class="skill-box col-xs-4" id="physics-details">
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_1}}</c>
+                                    <a class="aligncenter">$16/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_2}}</c>
+                                    <a class="aligncenter">$18/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_3}}</c>
+                                    <a class="aligncenter">$20/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="chemistry-box">
+                            <div class="skill-box col-xs-4" id="chemistry-details">
+                                <h5>{{skill_2}}</h5>
+                                <div class="course-details">
+                                    <c class="alignleft">{{class_4}}</c>
+                                    <a class="aligncenter">$17/hr</a>
+                                    <b class="alignright" href="url">Reviews</b>
+                                </div>
+                            </div>
+                        </div>
+                    -->
