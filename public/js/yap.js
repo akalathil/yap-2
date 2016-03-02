@@ -24,7 +24,6 @@ function login(e) {
 }
 
 function backButtonClicked(e){
-	e.preventDefault();
 	console.log("Back button clicked")
 	ga("send", "event", "back", "click");
 }
