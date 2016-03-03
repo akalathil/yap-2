@@ -5,6 +5,7 @@ $(document).ready(function() {
 	initializePage();
 })
 
+
 /*
  * Function that is called when the document is ready.
  */
@@ -23,7 +24,7 @@ function login(e) {
     document.location.href = currURL+'home';
 }
 
-function backButtonClicked(e){  
+function backButtonClicked(e){
 	console.log("Back button clicked")
 	ga("send", "event", "back", "click");
 }
