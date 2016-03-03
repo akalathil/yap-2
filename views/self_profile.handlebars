@@ -21,7 +21,7 @@
                     <div class="box" id="blue-box">
                         <div class="inner row">
                             <div class="profile col-xs-4">
-                                <img class="img-circle" src="img/profile-arvind.jpg">
+                                <img class="img-circle" src="img/profile-arvind.jpg" id="image-front">
                             </div>
                             <div class="col-xs-8" id="name-rating">
                                 <div class="row" id="name" contentEditable="true">
@@ -220,8 +220,17 @@
         #class-details{
             box-shadow: inset 0px 1px 4px #666;
             background: white;
+            overflow:hidden;
         }
         #class-details-2{
+            box-shadow: inset 0px 1px 4px #666;
+            background: white;
+            overflow:hidden;
+        }
+        #image-front{
+            z-index: +1; position:relative;
+        }
+        #responsive-name{
             box-shadow: inset 0px 1px 4px #666;
             background: white;
         }
