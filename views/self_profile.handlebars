@@ -35,7 +35,7 @@
                            {{#each classes}}
                                 <div class= "name" id="class-details">
                                     <div class="course-details">
-                                        <c class="alignleft" contentEditable="true">{{sectionID}}</c>
+                                        <c class="alignleft" contentEditable="true">Edit: {{sectionID}}</c>
                                         <a class="aligncenter">Set your rate: </a> <a contentEditable>${{rate}} </a>
                                     </div>
                                 </div>
@@ -48,7 +48,8 @@
                            {{#each desire}}
                                 <div class= "name" id="class-details-2">
                                     <div class="course-details">
-                                        <c class="alignleft" contentEditable="true">{{sectionID}}</c>
+
+                                        <c class="alignleft" contentEditable="true"> {{sectionID}}</c>
                                     </div>
                                 </div>
                             {{/each}}
@@ -223,6 +224,7 @@
         }
         #class-details-2{
             box-shadow: inset 0px 1px 4px #666;
+            background: white;
         }
         b{
             font color="red";
