@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {{> backButtonExperiment}}
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +15,8 @@
 </head>
     <body>
         <!-- Button trigger modal -->
-
-        <div class="section group" id="profile-details">
+    <div id="wrapper">
+        <div class="section group profile-details" id="page-content-wrapper">
             <div class="row">
                 <div class="list-box col-xs-12" id="white-box" height: 70%>
                     <div class="box" id="blue-box">
@@ -71,12 +70,19 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- side-bar -->
+    {{> side-bar}}
+</div>
         <!-- footer -->
         {{> footer}}
         {{> googleAnalytics}}
 
     </body>
     <style>
+        body {
+            background-color: #034f84;
+        }
         h3{
             font-size: 27px;
         }
@@ -135,7 +141,7 @@
         }
         .course-details{
             text-align: left;
-            font-size: .75em;
+            font-size: 1.2em;
         }
         #name{
             text-align: center;
@@ -146,7 +152,7 @@
         #blue-box{
             height: 100%;
         }
-        #profile-details{
+        .profile-details{
             background-color: #034f84;
             height: 100%;
             width: 100%;
