@@ -116,6 +116,90 @@
             "imageURL": "/img/profile-culinary-01.jpg"            
         },
         {
+            "fullname": "Billy Joel",
+            "firstname": "Billy",
+            "lastname": "Joel",
+            "contactnumber": "123-234-4352",
+            "quality":"4.5",
+            "classes": [
+                {"courseID":"Piano","sectionID":"Favorites","rate":"60","comment":"Walked me through the basics of playing Piano man, he was super cool:)"}
+            ],
+            "desires": [
+                {"subject": "How to swim"}
+            ],
+            "imageURL": "/img/profile-music-02.jpg"            
+        },
+        {
+            "fullname": "Justin Bieber",
+            "firstname": "Justin",
+            "lastname": "Bieber",
+            "contactnumber": "123-234-4352",
+            "quality":"4.9",
+            "classes": [
+                {"courseID":"Singing","sectionID":"How to reach that third octave","rate":"60","comment":"Justin was really down to earth and his voice was the opposite."}
+            ],
+            "desires": [
+                {"subject": "How to be a role model"}
+            ],
+            "imageURL": "/img/profile-music-03.jpg"            
+        },
+        {
+            "fullname": "Jiro Ono",
+            "firstname": "Jiro",
+            "lastname": "Ono",
+            "contactnumber": "123-234-4352",
+            "quality":"3.0",
+            "classes": [
+                {"courseID":"Sushi Preparation","sectionID":"Basic Sake and Unagi","rate":"60","comment":"Jiro's sushi was amazing. However, he does not speak English and I was mostly miming him."}
+            ],
+            "desires": [
+                {"subject": "English"}
+            ],
+            "imageURL": "/img/profile-culinary-02.jpg"            
+        },
+        {
+            "fullname": "Chef Boyardee",
+            "firstname": "Chef",
+            "lastname": "Boyardee",
+            "contactnumber": "123-234-4352",
+            "quality":"5.0",
+            "classes": [
+                {"courseID":"Microwaving","sectionID":"Mini Ravioli","rate":"60","comment":"FANTASTIC. Super easy preparation as well as delicious food."}
+            ],
+            "desires": [
+                {"subject": "Yoga"}
+            ],
+            "imageURL": "/img/profile-culinary-03.jpg"            
+        },
+        {
+            "fullname": "Lindy Tsang",
+            "firstname": "Lindy",
+            "lastname": "Tsang",
+            "contactnumber": "123-234-4352",
+            "quality":"5.0",
+            "classes": [
+                {"courseID":"Lipstick","sectionID":"Those really red shades","rate":"60","comment":"Bubz was really helpful and made my lips look 34% larger and 17% more attractive."}
+            ],
+            "desires": [
+                {"subject": "Extreme Yoga"}
+            ],
+            "imageURL": "/img/profile-beauty-02.jpg"            
+        },
+        {
+            "fullname": "Jaclyn Hill",
+            "firstname": "Jaclyn",
+            "lastname": "Hill",
+            "contactnumber": "123-234-4352",
+            "quality":"2.0",
+            "classes": [
+                {"courseID":"Eyebrows","sectionID":"Waxing","rate":"60","comment":"My eyebrows were NOT on fleek after a session with Jaclyn. I asked for a glamorous thin and she instead removed entirely."}
+            ],
+            "desires": [
+                {"subject": "Extreme Yoga"}
+            ],
+            "imageURL": "/img/profile-beauty-03.jpg"            
+        },
+        {
             "fullname": "Michelle Phan",
             "firstname": "Michelle",
             "lastname": "Phan",
