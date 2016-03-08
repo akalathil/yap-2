@@ -69,7 +69,7 @@
 			"rating": "4.7",
 			"skill_1": "Physics",
 			"skill_2": "Chemistry",
-			"skill_z": "Rick Ord"
+			"pricing": "$$$"
 		},
 		{
 			"img-src": "../img/profile-edu-02.jpg",
@@ -77,25 +77,27 @@
 			"rating": "5.0",
 			"skill_1": "HCI Design",
 			"skill_2": "Prototyping",
-			"skill_z": "Rick Ord"
+			"pricing": "$$"
 		},
 		{
 			"img-src": "../img/profile-edu-03.jpg",
 			"name": "Rick Ord",
 			"rating": "4.2",
+			"pricing": "$$",
 			"skill_1": "OOP: Java",
 			"skill_2": "Compiler",
 			"class_1": "CSE 11",
 			"class_2": "CSE 8B",
 			"class_3": "CSE 30",
-			"class_4": "CSE 131 Rick Ord"
+			"class_4": "CSE 131"
 		},
 		{
 			"img-src": "../img/profile-edu-04.jpg",
 			"name": "Frank Underwood",
 			"rating": "4.0",
 			"skill_1": "US Politics",
-			"skill_2": "Cards"
+			"skill_2": "Cards",
+			"pricing": "$"
 		}
 	],
 	"teach_fitness_listing": [
@@ -104,7 +106,8 @@
 			"name": "Arnold S.",
 			"rating": "4.9",
 			"skill_1": "Work Out",
-			"skill_2": "Terminator"
+			"skill_2": "Terminator",
+			"pricing": "$$"
 		}
 	],
 	"teach_music_listing": [
@@ -113,7 +116,8 @@
 			"name": "Taylor Swift",
 			"rating": "5.0",
 			"skill_1": "Singing",
-			"skill_2": "Song Writing"
+			"skill_2": "Song Writing",
+			"pricing": "$$$"
 		}
 	],
 	"teach_culinary_listing": [
@@ -122,7 +126,8 @@
 			"name": "Gordon Ramsey",
 			"rating": "1.0",
 			"skill_1": "Sandwich",
-			"skill_2": "Eggs"
+			"skill_2": "Eggs",
+			"pricing": "$$$"
 		}
 	],
 	"teach_beauty_listing": [
@@ -131,7 +136,8 @@
 			"name": "Michelle Phan",
 			"rating": "4.4",
 			"skill_1": "Contouring",
-			"skill_2": "Eye Makeup"
+			"skill_2": "Eye Makeup",
+			"pricing": "$$"
 		}
 	],
 	"teach_search_listing": [
@@ -140,7 +146,8 @@
 			"name": "Barack Obama",
 			"rating": "4.7",
 			"skill_1": "Speech",
-			"skill_2": "Be President"
+			"skill_2": "Be President",
+			"pricing": "$$$"
 		}
 	],
 	"subjects": [
