@@ -9,7 +9,10 @@
     background-color: #3c3c41;
     font-size: 1.5em;
 }
-
+@font-face {
+    font-family: "LearningCurve";
+    src: url("learningcurvedashed.tff");
+}
 .footer-body{
     display:-webkit-inline-box;
     margin: 7px 12%; /*Temporary "centering"*/
@@ -57,7 +60,7 @@ body{
 }
 
 .color {
-    height: 32vw;
+    height: 36vw;
     margin-bottom: 8vw;
 }
 
@@ -143,6 +146,11 @@ contact{
   float: left;
   width:33.33333%;
   text-align:left;
+}
+.title {
+    font-family: 'Learning Curve Dashed', sans-serif;
+    font-size: 6em;
+    font-weight: bolder;
 }
 /*
 .aligncenter {

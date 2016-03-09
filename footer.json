@@ -179,16 +179,16 @@
 		{
 			"img-src": "../img/profile-culinary-01.jpg",
 			"name": "Gordon Ramsey",
-			"time": "11:30",
+			"time": "16:16",
 			"href": "/message/Gordon%20Ramsey",
-			"last-message": "You want to learn how to make scrambled eggs?"
+			"last-message": "The scrambled eggs! You want to learn how to cook them, right?"
 		},
 		{
 			"img-src": "../img/profile-music-01.jpg",
 			"name": "Taylor Swift",
 			"time": "17:45",
-			"href": "/messenger",
-			"last-message": "Hey! Can you teach me physics?"
+			"href": "/message/Taylor%20Swift",
+			"last-message": "His eyes are like jungle. He smiles its like the radio."
 		}
 	],
 	"message": {
@@ -196,14 +196,13 @@
 			"name": "Rick Ord",
 			"messages": [
 				{
-
 					"img-src": "../img/profile-edu-03.jpg",
 					"time": "04:19",
-					"message": "Hey Sheldon."
+					"message": "Hey Arvind."
 				},
 				{
 					"img-src": "../img/profile-edu-03.jpg",
-					"time": "04:20",
+					"time": "20:21",
 					"message": "Are you still down to meet for Java Programming?"
 				}
 			]
@@ -213,13 +212,28 @@
 			"messages": [
 				{
 					"img-src": "../img/profile-culinary-01.jpg",
-					"time": "04:19",
-					"message": "Hey Sheldon."
+					"time": "16:15",
+					"message": "Arvind!"
 				},
 				{
 					"img-src": "../img/profile-culinary-01.jpg",
-					"time": "04:20",
-					"message": "Are you still down to meet for Java Programming?"
+					"time": "16:16",
+					"message": "The scrambled eggs! You want to learn how to cook them, right?"
+				}
+			]
+		},
+		"Taylor Swift": {
+			"name": "Taylor Swift",
+			"messages": [
+				{
+					"img-src": "../img/profile-music-01.jpg",
+					"time": "20:11",
+					"message": "His eyes are like jungle. He smiles its like the radio."
+				},
+				{
+					"img-src": "../img/profile-music-01.jpg",
+					"time": "20:21",
+					"message": "He whispers songs into my window and words that nobody knows."
 				}
 			]
 		}
