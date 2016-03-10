@@ -178,7 +178,7 @@
             "contactnumber": "113-331-4202",
             "quality":"4.20",
             "classes": [
-                {"courseID":"Korean Food","sectionID":"Jjajangmyeon","rate":"10","comment":"Pretty cool guy, food was pretty good too!"}
+                {"courseID":"Korean Food","sectionID":"Jjajang","rate":"10","comment":"Pretty cool guy, food was pretty good too!"}
             ],
             "desires": [
                 {"subject": "How to get a job"}
