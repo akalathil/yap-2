@@ -118,7 +118,24 @@
 			"skill_1": "Singing",
 			"skill_2": "Song Writing",
 			"pricing": "$$$"
-		}
+		}, 
+		{
+			"img-src": "../img/profile-music-02.jpg",
+			"name": "Billy Joel",
+			"rating": "4.5",
+			"skill_1": "Singing",
+			"skill_2": "Playing Piano",
+			"pricing": "$$$"
+		},
+		{
+			"img-src": "../img/profile-music-03.jpg",
+			"name": "Justin Bieber",
+			"rating": "4.9",
+			"skill_1": "Singing",
+			"skill_2": "Dancing",
+			"pricing": "$$$"
+		} 
+
 	],
 	"teach_culinary_listing": [
 		{
@@ -128,6 +145,30 @@
 			"skill_1": "Sandwich",
 			"skill_2": "Eggs",
 			"pricing": "$$$"
+		},
+		{
+			"img-src": "../img/profile-culinary-02.jpg",
+			"name": "Jiro Ono",
+			"rating": "3.0",
+			"skill_1": "Sushi",
+			"skill_2": "Sake",
+			"pricing": "$$$"
+		}, 
+		{
+			"img-src": "../img/profile-culinary-03.jpg",
+			"name": "Chef Boyardee",
+			"rating": "5.0",
+			"skill_1": "Microwaving",
+			"skill_2": "Mini-ravioli",
+			"pricing": "$"
+		},
+		{
+			"img-src": "../img/profile-culinary-04.jpg",
+			"name": "Young jin Yun",
+			"rating": "4.20",
+			"skill_1": "Korean Food",
+			"skill_2": "Burgers",
+			"pricing": "$"
 		}
 	],
 	"teach_beauty_listing": [
@@ -138,6 +179,22 @@
 			"skill_1": "Contouring",
 			"skill_2": "Eye Makeup",
 			"pricing": "$$"
+		}, 
+		{
+			"img-src": "../img/profile-beauty-03.jpg",
+			"name": "Jaclyn Hill",
+			"rating": "2.0",
+			"skill_1": "Eyebrows",
+			"skill_2": "Waxing",
+			"pricing": "$$$"
+		}, 
+		{
+			"img-src": "../img/profile-beauty-02.jpg",
+			"name": "Lindsey Tsang",
+			"rating": "5.0",
+			"skill_1": "Lips",
+			"skill_2": "Eye Makeup",
+			"pricing": "$$$"
 		}
 	],
 	"teach_search_listing": [

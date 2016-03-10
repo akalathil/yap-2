@@ -164,12 +164,26 @@
             "contactnumber": "123-234-4352",
             "quality":"5.0",
             "classes": [
-                {"courseID":"Microwaving","sectionID":"Mini Ravioli","rate":"60","comment":"FANTASTIC. Super easy preparation as well as delicious food."}
+                {"courseID":"Microwaving","sectionID":"Mini Ravioli","rate":"1","comment":"FANTASTIC. Super easy preparation as well as delicious food."}
             ],
             "desires": [
                 {"subject": "Yoga"}
             ],
             "imageURL": "/img/profile-culinary-03.jpg"            
+        },
+        {
+            "fullname": "Young jin Yun",
+            "firstname": "Young jin",
+            "lastname": "Yun",
+            "contactnumber": "113-331-4202",
+            "quality":"4.20",
+            "classes": [
+                {"courseID":"Korean Food","sectionID":"Jjajangmyeon","rate":"10","comment":"Pretty cool guy, food was pretty good too!"}
+            ],
+            "desires": [
+                {"subject": "How to get a job"}
+            ],
+            "imageURL": "/img/profile-culinary-04.jpg"            
         },
         {
             "fullname": "Lindy Tsang",
