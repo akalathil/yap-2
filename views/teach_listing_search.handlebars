@@ -19,31 +19,13 @@
     <div id="wrapper">
     <div class="content" id="page-content-wrapper">
         <div class="section group" id="teach-listing">
-            <div class="row">
-
-                {{#each footer.teach_search_listing}}
-                <div class="list-box col-xs-12">
-                    <div class="box">
-                        <div class="inner row">
-                            <div class="profile col-xs-4">
-                                <img class="img-circle" src={{img-src}}>
-                            </div>
-                            <div class="col-xs-8" id="name-rating">
-                                <div class="row" id="name">
-                                    <h3>{{name}}</h3>
-                                </div>
-                                <div class="row" id="rating">
-                                        <span style="color:black">{{rating}}/5</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="skill-box col-xs-4">{{skill_1}}</div>
-                            <div class="skill-box col-xs-4">{{skill_2}}</div>
-                        </div>
-                    </div>
-                </div>
-                {{/each}}
+            <h2>Search</h2>
+            <br>
+            <div class="row" id="input-row">
+                <input type="text" name="search" id="search-text"></input>
+                <a href="#" id="search">
+                    <i class="fa fa-search fa-lg"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -58,6 +40,15 @@
 <style>
     h3{
         font-size: 27px;
+    }
+    #input-row {
+        text-align: center;
+    }
+    #teach-listing {
+        text-align: center;
+    }
+    #search-text {
+        font-size: 1.3em;
     }
     .list-box {
         margin: 10px auto;
@@ -101,6 +92,9 @@
         color: white;
     }
     .content, #teach-listing{
+        background-color: #00b2ca;
+    }
+    body {
         background-color: #00b2ca;
     }
 </style>

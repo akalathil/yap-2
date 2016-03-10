@@ -15,8 +15,8 @@
 </head>
     <body>
         <!-- Button trigger modal -->
-
-        <div class="section group" id="profile-details">
+    <div id="wrapper">
+        <div class="section group profile-details" id="page-content-wrapper">
             <div class="row">
                 <div class="list-box col-xs-12" id="white-box" height: 70%>
                     <div class="box" id="blue-box">
@@ -26,10 +26,10 @@
                             </div>
                             <div class="col-xs-8" id="name-rating">
                                 <div class="row" id="name">
-                                    <h3>{{fullname}}</h3>
+                                    <h2>{{fullname}}</h2>
                                 </div>
                                 <div class="row" id="rating">
-                                    <h3>{{quality}}/5</h3>
+                                    <h3>{{quality}}/5.0</h3>
                                     <i class="fa fa-mobile fa-lg" id="contact-button">
                                     <a href="/messenger">
                                         <contact style="color:black">CONTACT</contact>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                         <div class="row" id="physics-box">
-                         <h5><center>Wants to teach</center></h5>
+                         <h3><center>Wants to teach</center></h3>
                            {{#each classes}}
                                 <div class= "name" id="class-details">
                                     <div class="course-details">
@@ -50,7 +50,7 @@
                             {{/each}}
                         </div>
                         <div class="row" id="physics-box2">
-                         <h5><center>Wants to learn</center></h5>
+                         <h3><center>Wants to learn</center></h3>
                            {{#each desires}}
                                 <div class= "name" id="class-details">
                                     <div class="course-details">
@@ -60,22 +60,32 @@
                             {{/each}}
                         </div>
                         <div class="row" id="chemistry-box">
-                            <h5><center>Reviews</center><h5>
+                            <h3><center>Reviews</center><h3>
                             {{#each classes}}
                             <div class = "name" id ="reviews">
-                             <h6>-{{comment}}</h6>
+                                <h4>-{{comment}}</h4>
+                            </div>
                             {{/each}}
                         </div>
-                    </div>
+                        <br>
+                        <br>
+                        <br>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- side-bar -->
+    {{> side-bar}}
+</div>
         <!-- footer -->
         {{> footer}}
         {{> googleAnalytics}}
 
     </body>
     <style>
+        body {
+            background-color: #034f84;
+        }
         h3{
             font-size: 27px;
         }
@@ -134,7 +144,7 @@
         }
         .course-details{
             text-align: left;
-            font-size: .75em;
+            font-size: 1.3em;
         }
         #name{
             text-align: center;
@@ -145,7 +155,7 @@
         #blue-box{
             height: 100%;
         }
-        #profile-details{
+        .profile-details{
             background-color: #034f84;
             height: 100%;
             width: 100%;

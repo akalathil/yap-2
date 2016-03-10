@@ -35,7 +35,12 @@
                                         <h3>{{name}}</h3>
                                     </div>
                                     <div class="row" id="rating">
-                                            <span style="color:black">{{rating}}/5</span>
+                                        <div class="col-xs-7">
+                                            <span>{{rating}}/5.0</span>
+                                        </div>
+                                        <div class="col-xs-5">
+                                            <span id="dollar-sign">{{pricing}}</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -104,6 +109,9 @@
         color: white;
     }
     .content, #teach-listing{
+        background-color: #e3868f;
+    }
+    body {
         background-color: #e3868f;
     }
 </style>
