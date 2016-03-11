@@ -124,7 +124,7 @@
 			"name": "Billy Joel",
 			"rating": "4.5",
 			"skill_1": "Singing",
-			"skill_2": "Playing Piano",
+			"skill_2": "Piano",
 			"pricing": "$$$"
 		},
 		{
@@ -166,7 +166,7 @@
 			"img-src": "../img/profile-culinary-04.jpg",
 			"name": "Young jin Yun",
 			"rating": "4.20",
-			"skill_1": "Korean Food",
+			"skill_1": "Korean",
 			"skill_2": "Burgers",
 			"pricing": "$"
 		}

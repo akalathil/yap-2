@@ -30,6 +30,7 @@
             </div>
             </form>
         </div>
+        <h4>{{empty_message}}</h4>
         {{#each result}}
         <div class="list-box col-xs-12">
             <a href="/user_profile?name={{name}}">
@@ -61,8 +62,6 @@
         </div>
         {{/each}}
     </div>
-
-
     <!-- side-bar -->
     {{> side-bar}}
 </div>
@@ -75,6 +74,9 @@
     h3{
         font-size: 27px;
     }
+    h4 {
+        text-align: center;
+    }
     #input-row {
         text-align: center;
     }
@@ -83,6 +85,7 @@
     }
     #search-text {
         font-size: 1.3em;
+        border-radius: 3px;
     }
     .list-box {
         margin: 10px auto;
@@ -97,11 +100,8 @@
     .header-icon {
         font-size: 1.15em;
     }
-    .fa-star {
-        color: #F5E050;
-        text-shadow: 2px 2px 2px #ccc;
-        text-align: center;
-
+    #page-content-wrapper {
+        padding-bottom: 75px;
     }
     .profile {
         padding: 7px;
@@ -125,8 +125,9 @@
         background-color: #55B4B0;
         color: white;
     }
-    .content, #teach-listing{
+    .content, #teach-listing, h2{
         background-color: #00b2ca;
+        font-weight: bold;
     }
     body {
         background-color: #00b2ca;

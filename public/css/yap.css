@@ -9,6 +9,10 @@
     background-color: #3c3c41;
     font-size: 1.5em;
 }
+#search {
+    font-size: 1.75em;
+    color: #333;
+}
 @font-face {
     font-family: "LearningCurve";
     src: url("learningcurvedashed.tff");
