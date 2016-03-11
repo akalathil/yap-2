@@ -46,6 +46,7 @@ app.get('/teach_listing_music', teach_listing.music);
 app.get('/teach_listing_culinary', teach_listing.culinary);
 app.get('/teach_listing_beauty', teach_listing.beauty);
 app.get('/teach_listing_search', teach_listing.search);
+// app.get('/teach_listing_search_result', teach_listing.searchResult);
 app.get('/', index.login);
 app.get('/self_profile',self_profile.getprofile)
 
