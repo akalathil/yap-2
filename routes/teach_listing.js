@@ -41,8 +41,10 @@ exports.search = function(req, res) {
 	} else {
 		var listings = data["footer"]['teach_education_listing'];
 		listings = listings.concat(data["footer"]['teach_music_listing'])
-		console.log("LALALA")
-		// console.log(listings)
+		listings = listings.concat(data["footer"]['teach_beauty_listing'])
+		listings = listings.concat(data["footer"]['teach_fitness_listing'])
+		listings = listings.concat(data["footer"]['teach_culinary_listing'])
+
 		var result = [];
 
 		listings.map(function (obj) {
