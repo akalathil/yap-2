@@ -34,8 +34,6 @@ exports.search = function(req, res) {
 		searchTerm = req.query.search;
 	}
 
-	console.log(searchTerm, "searchTerm");
-
 	if (!searchTerm) {
 		res.render('teach_listing_search', data);
 	} else {
@@ -57,39 +55,12 @@ exports.search = function(req, res) {
 			return 0;
 		});
 		data.result = result;
-		res.render('teach_listing_search', data);
-		console.log(data.result, 'result');
-	}
-}
-
-exports.searchResult = function(req, res) {
-	var searchData = {};
-	searchData["footer"] = dataFooter;
-	var searchTerm = '';
-
-	if (req.query && req.query.search) {
-		searchTerm = req.query.search;
-	}
-
-	console.log(req.query.search);
-
-	var listings = searchData["footer"]['teach_education_listing'];
-	listings = listings.concat(searchData["footer"]['teach_music_listing'])
-	console.log("LALALA")
-	console.log(listings)
-	// var searchTerm = $("#search-text").val();
-	//console.log("Search Term is: ")
-	//console.log(searchTerm)
-	var result = [];
-
-	listings.map(function (obj) {
-		for (var prop in obj) {
-			if (obj[prop].toLowerCase().indexOf(searchTerm.toLowerCase()) > -1) {
-				result.push(obj);
-				return 0;
-			}
+		if(data.result[0] == null) {
+			data.empty_message = "No listing that matches your keyword found.";
 		}
-		return 0;
-	});
-	res.render('teach_listing_search', searchData);
+		else {
+			data.empty_message = "";
+		}
+		res.render('teach_listing_search', data);
+	}
 }

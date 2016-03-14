@@ -75,7 +75,7 @@
 			"img-src": "../img/profile-edu-02.jpg",
 			"name": "Scott Klemmer",
 			"rating": "5.0",
-			"skill_1": "HCI Design",
+			"skill_1": "HCI",
 			"skill_2": "Prototyping",
 			"pricing": "$$"
 		},
@@ -95,7 +95,7 @@
 			"img-src": "../img/profile-edu-04.jpg",
 			"name": "Frank Underwood",
 			"rating": "4.0",
-			"skill_1": "US Politics",
+			"skill_1": "Politics",
 			"skill_2": "Cards",
 			"pricing": "$"
 		}
@@ -124,7 +124,7 @@
 			"name": "Billy Joel",
 			"rating": "4.5",
 			"skill_1": "Singing",
-			"skill_2": "Playing Piano",
+			"skill_2": "Piano",
 			"pricing": "$$$"
 		},
 		{
@@ -166,7 +166,7 @@
 			"img-src": "../img/profile-culinary-04.jpg",
 			"name": "Young jin Yun",
 			"rating": "4.20",
-			"skill_1": "Korean Food",
+			"skill_1": "Korean",
 			"skill_2": "Burgers",
 			"pricing": "$"
 		}
@@ -177,7 +177,7 @@
 			"name": "Michelle Phan",
 			"rating": "4.4",
 			"skill_1": "Contouring",
-			"skill_2": "Eye Makeup",
+			"skill_2": "Eyebrows",
 			"pricing": "$$"
 		},
 		{

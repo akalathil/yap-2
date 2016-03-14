@@ -9,6 +9,10 @@
     background-color: #3c3c41;
     font-size: 1.5em;
 }
+#search {
+    font-size: 1.75em;
+    color: #333;
+}
 @font-face {
     font-family: "LearningCurve";
     src: url("learningcurvedashed.tff");
@@ -283,7 +287,7 @@ h3{
     text-align: center;
 }
 #name-rating{
-    padding-left: 0px;
+    padding-left: 15px;
 }
 #teach-listing{
     background-color: #034f84;
@@ -301,7 +305,7 @@ h3{
 }
 #rating {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
     color: black;
 }
 #dollar-sign {
